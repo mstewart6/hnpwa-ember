@@ -10,7 +10,7 @@ export default function(name, options = {}) {
     beforeEach() {
       this.application = startApp();
 
-      if (options.beforeEach) {
+      if(options.beforeEach) {
         return options.beforeEach.apply(this, arguments);
       }
     },

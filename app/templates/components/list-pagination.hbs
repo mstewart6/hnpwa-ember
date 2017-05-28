@@ -1,0 +1,17 @@
+{{yield paginatedItems}}
+
+{{#if (or showPrevious showNext)}}
+  <div class="footer">
+    {{#if showPrevious}}
+      <button class="pagination-button" {{action "previousClicked"}}>{{previousText}}</button>
+    {{else}}
+      <div></div>
+    {{/if}}
+
+    {{#if showNext}}
+      <button class="pagination-button" {{action "nextClicked"}}>{{nextText}}</button>
+    {{else}}
+      <div></div>
+    {{/if}}
+  </div>
+{{/if}}

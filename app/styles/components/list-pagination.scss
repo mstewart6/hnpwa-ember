@@ -1,0 +1,18 @@
+.paginated-list {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+    .pagination-button {
+      background-color: inherit;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{{#list-pagination paginateBy=30 items=items as |stories|}}
+  {{#each stories as |story|}}
+    {{item-card item=story}}
+  {{/each}}
+{{/list-pagination}}

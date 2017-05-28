@@ -1,0 +1,26 @@
+.navbar {
+  background-color: $primary;
+
+  &-links {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 10px;
+  }
+
+  &-link {
+    margin: 0px;
+    padding: 5px;
+
+    text-transform: capitalize;
+
+    color: $secondary;
+  }
+
+  .active {
+    color: black;
+  }
+}

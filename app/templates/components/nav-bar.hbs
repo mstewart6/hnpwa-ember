@@ -1,0 +1,17 @@
+<nav>
+  <ul class="navbar-links">
+    <li class="navbar-link">
+      {{#link-to 'top'}}
+        <img src="favicon.ico" alt="">
+      {{/link-to}}
+    </li>
+
+    {{#each links as |link|}}
+      <li class="navbar-link {{if (eq active link) 'active'}}">
+        {{#link-to link}}
+          {{link}}
+        {{/link-to}}
+      </li>
+    {{/each}}
+  </ul>
+</nav>

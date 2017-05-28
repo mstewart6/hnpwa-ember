@@ -1,1 +1,36 @@
-{{item.score}}
+<div class="item-card-position">
+  {{item.score}}
+</div>
+
+<div class="item-card-body">
+  <div class="item-card-body-header">
+    {{#if (not-eq item.type 'job')}}
+      <a href={{item.url}}>
+        {{item.title}}
+      </a>
+    {{else}}
+      {{#link-to 'item' item.id}}{{item.title}}{{/link-to}}
+    {{/if}}
+
+    <span class="muted">
+      {{item.host}}
+    </span>
+  </div>
+
+  <div class="item-card-body-footer">
+    by
+
+    {{#link-to 'user' item.by.id}}
+      {{item.by.id}}
+    {{/link-to}}
+
+    {{moment-from-now item.time}}
+
+    {{#if (not-eq item.type 'job')}}
+      |
+      {{#link-to 'item' item.id}}
+        {{item.descendants}} comments
+      {{/link-to}}
+    {{/if}}
+  </div>
+</div>

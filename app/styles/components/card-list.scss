@@ -1,0 +1,12 @@
+.card-list {
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  overflow-y: scroll;
+
+  & > * {
+    flex: 1 1 auto;
+  }
+}
