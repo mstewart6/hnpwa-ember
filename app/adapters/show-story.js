@@ -1,7 +1,7 @@
 import ApplicationAdapter from './application';
 import Ember from 'ember';
 import ENV from 'hnpwa-ember/config/environment';
-import fetch from 'ember-network/fetch';
+import fetch from 'fetch';
 
 const baseUrl = `${ENV.firebaseUrl}/v0`;
 

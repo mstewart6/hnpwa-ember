@@ -25,6 +25,7 @@
   }
 
   .active {
-    color: black;
+    color: $secondary;
+    font-weight: bold;
   }
 }

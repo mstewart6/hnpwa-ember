@@ -7,6 +7,10 @@ module.exports = function(defaults) {
       patterns: [
         'https://hacker-news.firebaseio.com/api/v0/(.+)'
       ],
+    },
+
+    fingerprint: {
+      generateAssetMap: true
     }
   });
 
