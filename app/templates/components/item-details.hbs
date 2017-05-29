@@ -1,0 +1,35 @@
+<div class="item-details-header">
+  {{#if item.isExternal}}
+    <a href={{item.url}}>
+      {{item.title}}
+    </a>
+
+    <span class="muted">
+      {{item.host}}
+    </span>
+  {{else}}
+    {{item.title}}
+  {{/if}}
+
+  <div class="item-details-header-byline">
+    <span>{{item.score}} points</span>
+
+    <span>
+      by
+
+      {{#link-to 'user' item.by.id}}
+        {{item.by.id}}
+      {{/link-to}}
+    </span>
+
+    <span>
+      {{moment-from-now item.time}}
+    </span>
+  </div>
+</div>
+
+{{#if item.text}}
+  <div class="item-details-body">
+    {{item.commentText}}
+  </div>
+{{/if}}

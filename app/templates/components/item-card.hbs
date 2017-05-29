@@ -4,17 +4,17 @@
 
 <div class="item-card-body">
   <div class="item-card-body-header">
-    {{#if (not-eq item.type 'job')}}
+    {{#if item.isExternal}}
       <a href={{item.url}}>
         {{item.title}}
       </a>
+
+      <span class="muted">
+        {{item.host}}
+      </span>
     {{else}}
       {{#link-to 'item' item.id}}{{item.title}}{{/link-to}}
     {{/if}}
-
-    <span class="muted">
-      {{item.host}}
-    </span>
   </div>
 
   <div class="item-card-body-footer">

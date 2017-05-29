@@ -42,5 +42,26 @@ export default Model.extend({
     } else {
       return '';
     }
+  }),
+
+  authorName: Ember.computed.alias('by.id'),
+
+  isExternal: Ember.computed('url', function() {
+    return !Ember.isNone(this.get('url'));
+  }),
+
+  commentText: Ember.computed('text', function() {
+    // FIXME: this is super unsafe
+    return Ember.String.htmlSafe(this.get('text'));
+  }),
+
+  hasChildren: Ember.computed('kids', function() {
+    return this.get('kids.length') > 0;
+  }),
+
+  activeChildren: Ember.computed('kids.@each.deleted', function() {
+    return this.get('kids').reject((kid) => {
+      return kid.get('deleted');
+    });
   })
 });

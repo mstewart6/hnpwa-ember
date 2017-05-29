@@ -18,6 +18,10 @@
     text-transform: capitalize;
 
     color: $secondary;
+
+    .brand {
+      border: 1px solid $secondary;
+    }
   }
 
   .active {

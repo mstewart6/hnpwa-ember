@@ -8,7 +8,13 @@ export default Adapter.extend({
   findRecord(store, type, id, _snapshot) {
     return new Ember.RSVP.Promise(function(resolve, reject) {
       Ember.$.getJSON(`${baseUrl}/${type.modelName}/${id}.json`).then(function(data) {
-        resolve(data);
+        if(data === null) {
+          resolve({
+            id: id
+          });
+        } else {
+          resolve(data);
+        }
       }, function(jqXHR) {
         reject(jqXHR);
       });

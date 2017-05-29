@@ -1,0 +1,27 @@
+.item-details {
+  width: calc(100% - 40px;);
+  background-color: $secondary;
+  margin-bottom: 10px;
+  padding: 20px;
+
+  &-header {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+    &-byline {
+      font-size: 12px;
+      font-weight: normal;
+
+      a:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  &-body {
+    a {
+      color: $primary;
+    }
+  }
+}

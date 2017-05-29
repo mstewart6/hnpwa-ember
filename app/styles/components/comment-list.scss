@@ -1,0 +1,32 @@
+.comment-list {
+  width: calc(100% - 20px);
+  background-color: $secondary;
+  padding: 10px 10px 0 10px;
+
+  .comment {
+    margin: 10px;
+
+    &-header {
+      margin-bottom: 15px;
+      font-size: 14px;
+
+      a:hover {
+        color: $primary;
+      }
+    }
+
+    &-body {
+      font-size: 12px;
+      margin-bottom: 10px;
+
+      a {
+        color: $primary;
+      }
+    }
+
+    &-children {
+      margin-left: 15px;
+      border-left: 5px solid #666666;
+    }
+  }
+}
