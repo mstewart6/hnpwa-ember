@@ -1120,7 +1120,7 @@ broccoli-debug@^0.6.1:
     symlink-or-copy "^1.1.8"
     tree-sync "^1.2.2"
 
-broccoli-file-creator@^1.0.0:
+broccoli-file-creator@^1.0.0, broccoli-file-creator@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/broccoli-file-creator/-/broccoli-file-creator-1.1.1.tgz#1b35b67d215abdfadd8d49eeb69493c39e6c3450"
   dependencies:
@@ -1130,6 +1130,19 @@ broccoli-file-creator@^1.0.0:
     mkdirp "^0.5.1"
     rsvp "~3.0.6"
     symlink-or-copy "^1.0.1"
+
+broccoli-filter@^0.1.11:
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/broccoli-filter/-/broccoli-filter-0.1.14.tgz#23cae3891ff9ebb7b4d7db00c6dcf03535daf7ad"
+  dependencies:
+    broccoli-kitchen-sink-helpers "^0.2.6"
+    broccoli-writer "^0.1.1"
+    mkdirp "^0.3.5"
+    promise-map-series "^0.2.1"
+    quick-temp "^0.1.2"
+    rsvp "^3.0.16"
+    symlink-or-copy "^1.0.1"
+    walk-sync "^0.1.3"
 
 broccoli-filter@^1.2.2, broccoli-filter@^1.2.3:
   version "1.2.4"
@@ -1149,7 +1162,7 @@ broccoli-funnel-reducer@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/broccoli-funnel-reducer/-/broccoli-funnel-reducer-1.0.0.tgz#11365b2a785aec9b17972a36df87eef24c5cc0ea"
 
-broccoli-funnel@^1.0.0, broccoli-funnel@^1.0.1, broccoli-funnel@^1.0.6, broccoli-funnel@^1.1.0:
+broccoli-funnel@^1.0.0, broccoli-funnel@^1.0.1, broccoli-funnel@^1.0.3, broccoli-funnel@^1.0.6, broccoli-funnel@^1.1.0, broccoli-funnel@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/broccoli-funnel/-/broccoli-funnel-1.2.0.tgz#cddc3afc5ff1685a8023488fff74ce6fb5a51296"
   dependencies:
@@ -1168,7 +1181,7 @@ broccoli-funnel@^1.0.0, broccoli-funnel@^1.0.1, broccoli-funnel@^1.0.6, broccoli
     symlink-or-copy "^1.0.0"
     walk-sync "^0.3.1"
 
-broccoli-kitchen-sink-helpers@^0.2.5, broccoli-kitchen-sink-helpers@~0.2.0:
+broccoli-kitchen-sink-helpers@^0.2.5, broccoli-kitchen-sink-helpers@^0.2.6, broccoli-kitchen-sink-helpers@~0.2.0:
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/broccoli-kitchen-sink-helpers/-/broccoli-kitchen-sink-helpers-0.2.9.tgz#a5e0986ed8d76fb5984b68c3f0450d3a96e36ecc"
   dependencies:
@@ -1194,7 +1207,19 @@ broccoli-lint-eslint@^3.3.0:
     lodash.defaultsdeep "^4.6.0"
     md5-hex "^2.0.0"
 
-broccoli-merge-trees@^1.0.0, broccoli-merge-trees@^1.1.0, broccoli-merge-trees@^1.1.3:
+broccoli-merge-trees@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-1.1.1.tgz#1e283d18c686da922bb91a80d7aac0d161388e21"
+  dependencies:
+    broccoli-plugin "^1.0.0"
+    can-symlink "^1.0.0"
+    debug "^2.2.0"
+    fast-ordered-set "^1.0.2"
+    fs-tree-diff "^0.4.3"
+    rimraf "^2.4.3"
+    symlink-or-copy "^1.0.0"
+
+broccoli-merge-trees@^1.0.0, broccoli-merge-trees@^1.1.0, broccoli-merge-trees@^1.1.1, broccoli-merge-trees@^1.1.3, broccoli-merge-trees@^1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-1.2.4.tgz#a001519bb5067f06589d91afa2942445a2d0fdb5"
   dependencies:
@@ -1257,6 +1282,13 @@ broccoli-plugin@^1.0.0, broccoli-plugin@^1.1.0, broccoli-plugin@^1.2.0, broccoli
     rimraf "^2.3.4"
     symlink-or-copy "^1.1.8"
 
+broccoli-rollup@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/broccoli-rollup/-/broccoli-rollup-0.0.4.tgz#d23b2ef8fbd80e85dbb47d350fdab72902cd17c4"
+  dependencies:
+    broccoli-caching-writer "^2.2.0"
+    rollup "^0.26.2"
+
 broccoli-sass-source-maps@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/broccoli-sass-source-maps/-/broccoli-sass-source-maps-2.0.0.tgz#7f25f9f4b296918cec6e00672c63e75abce33d45"
@@ -1288,7 +1320,7 @@ broccoli-sri-hash@^2.1.0:
     sri-toolbox "^0.2.0"
     symlink-or-copy "^1.0.1"
 
-broccoli-stew@^1.2.0, broccoli-stew@^1.3.3, broccoli-stew@^1.4.0:
+broccoli-stew@^1.2.0, broccoli-stew@^1.3.3, broccoli-stew@^1.4.0, broccoli-stew@^1.4.2:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/broccoli-stew/-/broccoli-stew-1.5.0.tgz#d7af8c18511dce510e49d308a62e5977f461883c"
   dependencies:
@@ -1307,7 +1339,15 @@ broccoli-stew@^1.2.0, broccoli-stew@^1.3.3, broccoli-stew@^1.4.0:
     symlink-or-copy "^1.1.8"
     walk-sync "^0.3.0"
 
-broccoli-uglify-sourcemap@^1.0.0:
+broccoli-templater@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/broccoli-templater/-/broccoli-templater-1.0.0.tgz#7c054aacf596d1868d1a44291f9ec7b907d30ecf"
+  dependencies:
+    broccoli-filter "^0.1.11"
+    broccoli-stew "^1.2.0"
+    lodash.template "^3.3.2"
+
+broccoli-uglify-sourcemap@^1.0.0, broccoli-uglify-sourcemap@^1.5.1:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/broccoli-uglify-sourcemap/-/broccoli-uglify-sourcemap-1.5.2.tgz#04f84ab0db539031fa868ccfa563c9932d50cedb"
   dependencies:
@@ -1321,7 +1361,7 @@ broccoli-uglify-sourcemap@^1.0.0:
     uglify-js "^2.7.0"
     walk-sync "^0.1.3"
 
-broccoli-writer@~0.1.1:
+broccoli-writer@^0.1.1, broccoli-writer@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/broccoli-writer/-/broccoli-writer-0.1.1.tgz#d4d71aa8f2afbc67a3866b91a2da79084b96ab2d"
   dependencies:
@@ -1543,6 +1583,10 @@ clone@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/clone/-/clone-0.2.0.tgz#c6126a90ad4f72dbf5acdb243cc37724fe93fc1f"
 
+clone@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
+
 clone@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.1.tgz#d217d1e961118e3ac9a4b8bba3285553bf647cdb"
@@ -1617,7 +1661,7 @@ compressible@~2.0.8:
   dependencies:
     mime-db ">= 1.27.0 < 2"
 
-compression@^1.4.4:
+compression@^1.4.4, compression@^1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/compression/-/compression-1.6.2.tgz#cceb121ecc9d09c52d7ad0c3350ea93ddd402bc3"
   dependencies:
@@ -1697,6 +1741,10 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
+cookie@^0.2.3:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.2.4.tgz#a8c155aa7b9b2cf2c4d32ebc7b9a0aa288ccc6bd"
+
 copy-dereference@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/copy-dereference/-/copy-dereference-1.0.0.tgz#6b131865420fd81b413ba994b44d3655311152b6"
@@ -1712,6 +1760,12 @@ core-js@^2.4.0:
 core-object@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/core-object/-/core-object-1.1.0.tgz#86d63918733cf9da1a5aae729e62c0a88e66ad0a"
+
+core-object@^2.0.5:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/core-object/-/core-object-2.1.1.tgz#4b7a5f1edefcb1e6d0dcb58eab1b9f90bfc666a8"
+  dependencies:
+    chalk "^1.1.3"
 
 core-object@^3.0.0:
   version "3.1.0"
@@ -1972,6 +2026,31 @@ ember-cli-eslint@^3.1.0:
     ember-cli-version-checker "^1.3.1"
     rsvp "^3.2.1"
     walk-sync "^0.3.0"
+
+ember-cli-fastboot@^1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-fastboot/-/ember-cli-fastboot-1.0.0-rc.1.tgz#1ac58f3a6c1ef1fb789746b180f177659df8171e"
+  dependencies:
+    broccoli-concat "^3.2.2"
+    broccoli-funnel "^1.2.0"
+    broccoli-merge-trees "^1.1.1"
+    broccoli-plugin "^1.2.1"
+    broccoli-stew "^1.2.0"
+    chalk "^1.1.3"
+    compression "^1.6.2"
+    core-object "^2.0.5"
+    debug "^2.2.0"
+    ember-cli-babel "^5.1.7"
+    ember-cli-version-checker "^1.3.1"
+    exists-sync "0.0.4"
+    express "^4.8.5"
+    fastboot "1.0.0-rc.6"
+    fastboot-express-middleware "1.0.0-rc.7"
+    lodash.defaults "^4.0.1"
+    lodash.uniq "^4.2.0"
+    md5-hex "^1.3.0"
+    rsvp "^3.0.16"
+    silent-error "^1.0.0"
 
 ember-cli-get-component-path-option@^1.0.0:
   version "1.0.0"
@@ -2280,6 +2359,17 @@ ember-export-application-global@^1.0.5:
   dependencies:
     ember-cli-babel "^5.1.10"
 
+"ember-fetch@github:stefanpenner/ember-fetch#994c0df4183185a812e0b096f79af3f26ed71937":
+  version "2.0.0"
+  resolved "https://codeload.github.com/stefanpenner/ember-fetch/tar.gz/994c0df4183185a812e0b096f79af3f26ed71937"
+  dependencies:
+    broccoli-funnel "^1.2.0"
+    broccoli-stew "^1.4.2"
+    broccoli-templater "^1.0.0"
+    ember-cli-babel "^6.0.0"
+    node-fetch "^2.0.0-alpha.3"
+    whatwg-fetch "^2.0.3"
+
 ember-inflector@^1.9.4:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/ember-inflector/-/ember-inflector-1.12.1.tgz#d8bd2ca2f327b439720f89923fe614d46b5da1ca"
@@ -2327,6 +2417,48 @@ ember-runtime-enumerable-includes-polyfill@^1.0.0:
   dependencies:
     ember-cli-babel "^5.1.6"
     ember-cli-version-checker "^1.1.6"
+
+ember-service-worker-asset-cache@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/ember-service-worker-asset-cache/-/ember-service-worker-asset-cache-0.6.1.tgz#48faa17ec49fd2444b36dbb354b8cf44cca557a7"
+  dependencies:
+    broccoli-filter "^1.2.3"
+    broccoli-merge-trees "1.1.1"
+    broccoli-plugin "^1.3.0"
+    ember-cli-babel "^5.1.6"
+    glob "^7.1.1"
+
+ember-service-worker-cache-fallback@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/ember-service-worker-cache-fallback/-/ember-service-worker-cache-fallback-0.6.1.tgz#80cd4c3cbd82b62d942f7a5330e29bdae2411750"
+  dependencies:
+    broccoli-merge-trees "^1.2.1"
+    broccoli-plugin "^1.3.0"
+
+ember-service-worker-index@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/ember-service-worker-index/-/ember-service-worker-index-0.6.1.tgz#af232e4c66d4c2eb53870951ef00d8cdf3470198"
+  dependencies:
+    broccoli-merge-trees "^1.2.1"
+    broccoli-plugin "^1.3.0"
+
+ember-service-worker@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/ember-service-worker/-/ember-service-worker-0.6.6.tgz#61aabd3ac8f1dc913be7d43393a353f10428bbea"
+  dependencies:
+    broccoli-babel-transpiler "^5.5.0"
+    broccoli-file-creator "^1.1.1"
+    broccoli-funnel "^1.0.3"
+    broccoli-merge-trees "1.1.1"
+    broccoli-plugin "^1.3.0"
+    broccoli-rollup "0.0.4"
+    broccoli-uglify-sourcemap "^1.5.1"
+    clone "^1.0.2"
+    ember-cli-babel "^5.1.6"
+    exists-sync "0.0.3"
+    glob "^7.1.1"
+    hash-for-dep "^1.0.2"
+    rollup-plugin-replace "^1.1.1"
 
 ember-test-helpers@^0.6.3:
   version "0.6.3"
@@ -2589,6 +2721,10 @@ estraverse@~4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.1.1.tgz#f6caca728933a850ef90661d0e17982ba47111a2"
 
+estree-walker@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.2.1.tgz#bdafe8095383d8414d5dc2ecf4c9173b6db9412e"
+
 esutils@^2.0.0, esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
@@ -2668,7 +2804,11 @@ expand-tilde@^1.2.2:
   dependencies:
     os-homedir "^1.0.1"
 
-express@^4.10.7, express@^4.12.3:
+express-cluster@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/express-cluster/-/express-cluster-0.0.4.tgz#7aa5c39779bbc7550a30525d02b4c022e40b8798"
+
+express@^4.10.7, express@^4.12.3, express@^4.13.3, express@^4.8.5:
   version "4.15.3"
   resolved "https://registry.yarnpkg.com/express/-/express-4.15.3.tgz#bab65d0f03aa80c358408972fc700f916944b662"
   dependencies:
@@ -2745,6 +2885,30 @@ fast-sourcemap-concat@^1.0.1:
     rsvp "^3.0.14"
     source-map "^0.4.2"
     source-map-url "^0.3.0"
+
+fastboot-express-middleware@1.0.0-rc.7:
+  version "1.0.0-rc.7"
+  resolved "https://registry.yarnpkg.com/fastboot-express-middleware/-/fastboot-express-middleware-1.0.0-rc.7.tgz#285dee01734d40bafe983cefb63e7df0c680f282"
+  dependencies:
+    chalk "^1.1.3"
+    fastboot "^1.0.0-rc.3"
+
+fastboot@1.0.0-rc.6, fastboot@^1.0.0-rc.3:
+  version "1.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/fastboot/-/fastboot-1.0.0-rc.6.tgz#09af88b41d1b31fda96be425c857e34b2323115b"
+  dependencies:
+    chalk "^0.5.1"
+    cookie "^0.2.3"
+    debug "^2.1.0"
+    exists-sync "0.0.3"
+    express "^4.13.3"
+    express-cluster "0.0.4"
+    glob "^4.0.5"
+    minimist "^1.2.0"
+    najax "^1.0.1"
+    rsvp "^3.0.16"
+    simple-dom "^0.3.0"
+    source-map-support "^0.4.0"
 
 faye-websocket@~0.10.0:
   version "0.10.0"
@@ -2929,6 +3093,13 @@ fs-readdir-recursive@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-0.1.2.tgz#315b4fb8c1ca5b8c47defef319d073dad3568059"
 
+fs-tree-diff@^0.4.3:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-0.4.4.tgz#f6b75d70db22c1f3b05d592270f4ed6c9c2f82dd"
+  dependencies:
+    debug "^2.2.0"
+    fast-ordered-set "^1.0.2"
+
 fs-tree-diff@^0.5.2, fs-tree-diff@^0.5.3, fs-tree-diff@^0.5.4, fs-tree-diff@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-0.5.6.tgz#342665749e8dca406800b672268c8f5073f3e623"
@@ -3042,7 +3213,7 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@7.1.1, glob@^7.0.0, glob@^7.0.3, glob@^7.0.4, glob@^7.0.5, glob@~7.1.1:
+glob@7.1.1, glob@^7.0.0, glob@^7.0.3, glob@^7.0.4, glob@^7.0.5, glob@^7.1.1, glob@~7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
   dependencies:
@@ -3052,6 +3223,15 @@ glob@7.1.1, glob@^7.0.0, glob@^7.0.3, glob@^7.0.4, glob@^7.0.5, glob@~7.1.1:
     minimatch "^3.0.2"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+glob@^4.0.5:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-4.5.3.tgz#c6cb73d3226c1efef04de3c56d012f03377ee15f"
+  dependencies:
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^2.0.1"
+    once "^1.3.0"
 
 glob@^5.0.10, glob@^5.0.15:
   version "5.0.15"
@@ -3574,6 +3754,10 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
+jquery-deferred@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/jquery-deferred/-/jquery-deferred-0.3.1.tgz#596eca1caaff54f61b110962b23cafea74c35355"
+
 js-base64@^2.1.8:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -3770,6 +3954,14 @@ lodash._basefor@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/lodash._basefor/-/lodash._basefor-3.0.3.tgz#7550b4e9218ef09fad24343b612021c79b4c20c2"
 
+lodash._basetostring@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/lodash._basetostring/-/lodash._basetostring-3.0.1.tgz#d1861d877f824a52f669832dcaf3ee15566a07d5"
+
+lodash._basevalues@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/lodash._basevalues/-/lodash._basevalues-3.0.0.tgz#5b775762802bde3d3297503e26300820fdf661b7"
+
 lodash._bindcallback@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
@@ -3790,9 +3982,13 @@ lodash._isiterateecall@^3.0.0:
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/lodash._isiterateecall/-/lodash._isiterateecall-3.0.9.tgz#5203ad7ba425fae842460e696db9cf3e6aac057c"
 
-lodash._reinterpolate@~3.0.0:
+lodash._reinterpolate@^3.0.0, lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
+
+lodash._root@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/lodash._root/-/lodash._root-3.0.1.tgz#fba1c4524c19ee9a5f8136b4609f017cf4ded692"
 
 lodash.assign@^3.2.0:
   version "3.2.0"
@@ -3820,13 +4016,19 @@ lodash.debounce@^3.1.1:
   dependencies:
     lodash._getnative "^3.0.0"
 
-lodash.defaults@^4.2.0:
+lodash.defaults@^4.0.1, lodash.defaults@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
 
 lodash.defaultsdeep@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.0.tgz#bec1024f85b1bd96cbea405b23c14ad6443a6f81"
+
+lodash.escape@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.escape/-/lodash.escape-3.2.0.tgz#995ee0dc18c1b48cc92effae71a10aab5b487698"
+  dependencies:
+    lodash._root "^3.0.0"
 
 lodash.find@^4.5.1:
   version "4.6.0"
@@ -3906,12 +4108,33 @@ lodash.restparam@^3.0.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
 
+lodash.template@^3.3.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-3.6.2.tgz#f8cdecc6169a255be9098ae8b0c53d378931d14f"
+  dependencies:
+    lodash._basecopy "^3.0.0"
+    lodash._basetostring "^3.0.0"
+    lodash._basevalues "^3.0.0"
+    lodash._isiterateecall "^3.0.0"
+    lodash._reinterpolate "^3.0.0"
+    lodash.escape "^3.0.0"
+    lodash.keys "^3.0.0"
+    lodash.restparam "^3.0.0"
+    lodash.templatesettings "^3.0.0"
+
 lodash.template@^4.2.5:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.4.0.tgz#e73a0385c8355591746e020b99679c690e68fba0"
   dependencies:
     lodash._reinterpolate "~3.0.0"
     lodash.templatesettings "^4.0.0"
+
+lodash.templatesettings@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.templatesettings/-/lodash.templatesettings-3.1.1.tgz#fb307844753b66b9f1afa54e262c745307dba8e5"
+  dependencies:
+    lodash._reinterpolate "^3.0.0"
+    lodash.escape "^3.0.0"
 
 lodash.templatesettings@^4.0.0:
   version "4.1.0"
@@ -3970,6 +4193,12 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.1"
     yallist "^2.0.0"
 
+magic-string@^0.15.2:
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.15.2.tgz#0681d7388741bbc3addaa65060992624c6c09e9c"
+  dependencies:
+    vlq "^0.2.1"
+
 make-array@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/make-array/-/make-array-0.1.2.tgz#335e36ebb0c5a43154d21213a1ecaeae2a1bb3ef"
@@ -4020,7 +4249,7 @@ matcher-collection@^1.0.0, matcher-collection@^1.0.1:
   dependencies:
     minimatch "^3.0.2"
 
-md5-hex@^1.0.2:
+md5-hex@^1.0.2, md5-hex@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/md5-hex/-/md5-hex-1.3.0.tgz#d2c4afe983c4370662179b8cad145219135046c4"
   dependencies:
@@ -4130,7 +4359,7 @@ mime@1.3.4, mime@^1.2.11:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^2.0.3:
+minimatch@^2.0.1, minimatch@^2.0.3:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-2.0.10.tgz#8d087c39c6b38c001b97fca7ce6d0e1e80afbac7"
   dependencies:
@@ -4212,6 +4441,14 @@ mute-stream@0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.6.tgz#48962b19e169fd1dfc240b3f1e7317627bbc47db"
 
+najax@^1.0.1:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/najax/-/najax-1.0.3.tgz#11145f4d910446ea661d8ab7fcef53f6ad164ae5"
+  dependencies:
+    jquery-deferred "^0.3.0"
+    lodash.defaultsdeep "^4.6.0"
+    qs "^6.2.0"
+
 nan@^2.3.0, nan@^2.3.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
@@ -4230,6 +4467,12 @@ node-fetch@^1.3.3:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
+
+node-fetch@^2.0.0-alpha.3:
+  version "2.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.0.0-alpha.4.tgz#ae3fe092fef710a7e565e68d5fcccefabad674b6"
+  dependencies:
+    encoding "^0.1.11"
 
 node-gyp@^3.3.1:
   version "3.6.1"
@@ -4658,7 +4901,7 @@ q@^1.1.2:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
 
-qs@6.4.0, qs@^6.4.0, qs@~6.4.0:
+qs@6.4.0, qs@^6.2.0, qs@^6.4.0, qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
@@ -4974,6 +5217,29 @@ rimraf@~2.2.6:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
 
+rollup-plugin-replace@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-replace/-/rollup-plugin-replace-1.1.1.tgz#396315ded050a6ce43b9518a886a3f60efb1ea33"
+  dependencies:
+    magic-string "^0.15.2"
+    minimatch "^3.0.2"
+    rollup-pluginutils "^1.5.0"
+
+rollup-pluginutils@^1.5.0:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-1.5.2.tgz#1e156e778f94b7255bfa1b3d0178be8f5c552408"
+  dependencies:
+    estree-walker "^0.2.1"
+    minimatch "^3.0.2"
+
+rollup@^0.26.2:
+  version "0.26.7"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.26.7.tgz#12875bc83a0ee8ddcf4b3bcf30f2b77d60652dd7"
+  dependencies:
+    chalk "^1.1.1"
+    minimist "^1.2.0"
+    source-map-support "^0.4.0"
+
 rsvp@^3.0.14, rsvp@^3.0.16, rsvp@^3.0.17, rsvp@^3.0.18, rsvp@^3.0.21, rsvp@^3.0.6, rsvp@^3.1.0, rsvp@^3.2.1, rsvp@^3.3.3:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-3.5.0.tgz#a62c573a4ae4e1dfd0697ebc6242e79c681eaa34"
@@ -5121,6 +5387,10 @@ silent-error@^1.0.0, silent-error@^1.0.1, silent-error@^1.1.0:
   dependencies:
     debug "^2.2.0"
 
+simple-dom@^0.3.0:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/simple-dom/-/simple-dom-0.3.2.tgz#0663d10f1556f1500551d518f56e3aba0871371d"
+
 simple-fmt@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/simple-fmt/-/simple-fmt-0.1.0.tgz#191bf566a59e6530482cb25ab53b4a8dc85c3a6b"
@@ -5207,7 +5477,7 @@ source-map-support@^0.2.10:
   dependencies:
     source-map "0.1.32"
 
-source-map-support@^0.4.2:
+source-map-support@^0.4.0, source-map-support@^0.4.2:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.15.tgz#03202df65c06d2bd8c7ec2362a193056fef8d3b1"
   dependencies:
@@ -5681,6 +5951,10 @@ verror@1.3.6:
   dependencies:
     extsprintf "1.0.2"
 
+vlq@^0.2.1:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.2.tgz#e316d5257b40b86bb43cb8d5fea5d7f54d6b0ca1"
+
 walk-sync@0.3.1, walk-sync@^0.3.0, walk-sync@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/walk-sync/-/walk-sync-0.3.1.tgz#558a16aeac8c0db59c028b73c66f397684ece465"
@@ -5718,6 +5992,10 @@ websocket-driver@>=0.5.1:
 websocket-extensions@>=0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.1.tgz#76899499c184b6ef754377c2dbb0cd6cb55d29e7"
+
+whatwg-fetch@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
 
 which-module@^1.0.0:
   version "1.0.0"
