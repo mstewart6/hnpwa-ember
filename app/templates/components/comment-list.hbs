@@ -1,8 +1,8 @@
 {{#each comments as |comment|}}
   <div class="comment">
     <div class="comment-header">
-      {{#link-to 'user' comment.by.id}}
-        {{comment.by.id}}
+      {{#link-to 'user' comment.user}}
+        {{comment.user}}
       {{/link-to}}
 
       {{moment-from-now comment.time}}

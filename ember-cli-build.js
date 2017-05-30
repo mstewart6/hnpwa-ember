@@ -3,9 +3,17 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
+    outputPaths: {
+      app: {
+        css: {
+          phone: '/assets/phone.css'
+        }
+      }
+    },
+
     'esw-cache-fallback': {
       patterns: [
-        'https://hacker-news.firebaseio.com/api/v0/(.+)'
+        'https://node-hnapi.herokuapp.com/(.+)'
       ],
     },
 

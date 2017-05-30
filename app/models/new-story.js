@@ -1,6 +1,4 @@
-import Model from 'ember-data/model';
-import { hasMany } from 'ember-data/relationships';
+import Item from './item';
 
-export default Model.extend({
-  items: hasMany('item', { async: true })
+export default Item.extend({
 });

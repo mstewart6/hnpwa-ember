@@ -1,5 +1,5 @@
-{{#list-pagination paginateBy=30 items=items as |stories|}}
-  {{#each stories as |story|}}
-    {{item-card item=story}}
-  {{/each}}
-{{/list-pagination}}
+{{#each items as |story|}}
+  {{item-card item=story}}
+{{/each}}
+
+{{pagination-links modelName=modelName page=page count=items.length}}

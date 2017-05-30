@@ -5,7 +5,7 @@
     </a>
 
     <span class="muted">
-      {{item.host}}
+      {{item.domain}}
     </span>
   {{else}}
     {{item.title}}
@@ -17,8 +17,8 @@
     <span>
       by
 
-      {{#link-to 'user' item.by.id}}
-        {{item.by.id}}
+      {{#link-to 'user' item.user.id}}
+        {{item.user.id}}
       {{/link-to}}
     </span>
 
@@ -28,7 +28,7 @@
   </div>
 </div>
 
-{{#if item.text}}
+{{#if item.content}}
   <div class="item-details-body">
     {{item.commentText}}
   </div>

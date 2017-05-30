@@ -18,7 +18,7 @@ module.exports = function(environment) {
       // when it is created
     },
 
-    firebaseUrl: 'https://hacker-news.firebaseio.com'
+    apiUrl: 'https://node-hnapi.herokuapp.com'
   };
 
   if (environment === 'development') {

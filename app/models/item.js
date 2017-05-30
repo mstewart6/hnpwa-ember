@@ -4,64 +4,42 @@ import { hasMany, belongsTo } from 'ember-data/relationships';
 import Ember from 'ember';
 
 export default Model.extend({
-  deleted: attr('boolean', {
-    defaultValue: false
-  }),
-  type: attr('string', {
-    defaultValue: 'story'
-  }),
+  comments_count: attr('number'),
+  content: attr('string'),
+  domain: attr('string'),
+  points: attr('number'),
   time: attr('unix-date', {
     defaultValue: function() {
       return new Date();
     }
   }),
-  text: attr('string'),
-  dead: attr('boolean', {
-    defaultValue: false
-  }),
-  poll: attr(),
-  url: attr('string'),
-  score: attr('number'),
   title: attr('string'),
-  parts: attr(),
-  descendants: attr('number'),
+  type: attr('string'),
+  url: attr('string'),
 
-  by: belongsTo('user'),
-  parent: belongsTo('item', {
-    inverse: 'kids'
-  }),
-  kids: hasMany('item', {
-    inverse: 'parent'
-  }),
+  user: belongsTo(),
+  comments: hasMany('comment', { inverse: null, async: false }),
 
-  host: Ember.computed('url', function() {
-    let url = this.get('url');
-
-    if(url) {
-      return `(${new URL(url).hostname})`;
-    } else {
-      return '';
-    }
+  isExternal: Ember.computed('domain', function() {
+    return !Ember.isNone(this.get('domain'));
   }),
 
-  authorName: Ember.computed.alias('by.id'),
-
-  isExternal: Ember.computed('url', function() {
-    return !Ember.isNone(this.get('url'));
+  score: Ember.computed('points', function() {
+    return this.get('points') || 0;
   }),
 
-  commentText: Ember.computed('text', function() {
+  commentText: Ember.computed('content', function() {
     // FIXME: this is super unsafe
-    return Ember.String.htmlSafe(this.get('text'));
+    return Ember.String.htmlSafe(this.get('content'));
   }),
 
-  hasChildren: Ember.computed('kids', function() {
-    return this.get('kids.length') > 0;
+  hasChildren: Ember.computed('comments', function() {
+    return this.get('comments.length') > 0;
   }),
 
-  activeChildren: Ember.computed('kids.@each.deleted', function() {
-    return this.get('kids').reject((kid) => {
-      return kid.get('deleted');
+  activeChildren: Ember.computed('comments.@each.deleted', function() {
+    return this.get('comments').reject((comment) => {
+      return comment.get('deleted');
     });
   })
 });

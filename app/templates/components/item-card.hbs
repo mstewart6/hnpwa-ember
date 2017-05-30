@@ -10,7 +10,7 @@
       </a>
 
       <span class="muted">
-        {{item.host}}
+        {{item.domain}}
       </span>
     {{else}}
       {{#link-to 'item' item.id}}{{item.title}}{{/link-to}}
@@ -18,18 +18,20 @@
   </div>
 
   <div class="item-card-body-footer">
-    by
+    {{#if item.user.id}}
+      by
 
-    {{#link-to 'user' item.by.id}}
-      {{item.by.id}}
-    {{/link-to}}
+      {{#link-to 'user' item.user.id}}
+        {{item.user.id}}
+      {{/link-to}}
+    {{/if}}
 
     {{moment-from-now item.time}}
 
     {{#if (not-eq item.type 'job')}}
       |
       {{#link-to 'item' item.id}}
-        {{item.descendants}} comments
+        {{item.comments_count}} comments
       {{/link-to}}
     {{/if}}
   </div>

@@ -1,9 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model() {
+  model(params) {
     return Ember.RSVP.hash({
-      showStory: this.store.findRecord('show-story', 1)
+      items: this.store.query('show-story', { page: params.page || 1 })
     });
+  },
+
+  queryParams: {
+    page: {
+      refreshModel: true
+    }
   }
 });
