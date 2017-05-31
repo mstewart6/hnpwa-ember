@@ -11,10 +11,6 @@ module.exports = function(defaults) {
 
     fingerprint: {
       generateAssetMap: true
-    },
-
-    gzip: {
-      keepUncompressed: true
     }
   });
 
