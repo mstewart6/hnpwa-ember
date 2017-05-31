@@ -3,14 +3,6 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    outputPaths: {
-      app: {
-        css: {
-          phone: '/assets/phone.css'
-        }
-      }
-    },
-
     'esw-cache-fallback': {
       patterns: [
         'https://node-hnapi.herokuapp.com/(.+)'
@@ -19,6 +11,10 @@ module.exports = function(defaults) {
 
     fingerprint: {
       generateAssetMap: true
+    },
+
+    gzip: {
+      keepUncompressed: true
     }
   });
 
