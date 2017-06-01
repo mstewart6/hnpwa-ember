@@ -19,6 +19,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "ember-cli-deploy-firebase": "^0.2.9",
+    "ember-cli-deploy-firebase-pack": "^0.3.2",
     "ember-cli-deploy-gzip": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.0"
   },
