@@ -1,11 +1,11 @@
 {{#if showPrevious}}
-  {{#link-to modelName (query-params page=(sub page 1))}}&lt;&lt; Prev{{/link-to}}
+  {{#link-to modelName (query-params page=previousPage)}}&lt;&lt; Prev{{/link-to}}
 {{else}}
   <div></div>
 {{/if}}
 
 {{#if showNext}}
-  {{#link-to modelName (query-params page=(add page 1))}}Next &gt;&gt;{{/link-to}}
+  {{#link-to modelName (query-params page=nextPage)}}Next &gt;&gt;{{/link-to}}
 {{else}}
   <div></div>
 {{/if}}

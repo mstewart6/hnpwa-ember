@@ -8,11 +8,7 @@ export default Model.extend({
   content: attr('string'),
   domain: attr('string'),
   points: attr('number'),
-  time: attr('unix-date', {
-    defaultValue: function() {
-      return new Date();
-    }
-  }),
+  time_ago: attr('string'),
   title: attr('string'),
   type: attr('string'),
   url: attr('string'),

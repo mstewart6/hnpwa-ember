@@ -1,6 +1,10 @@
 {
   "hosting": {
     "public": "dist",
+    "ignore": [
+      "**/vendor*",
+      "**/hnpwa*"
+    ],
     "rewrites": [
       {
         "source": "**",
