@@ -14,27 +14,27 @@
   },
   "repository": "",
   "engines": {
-    "node": "7.10.0"
+    "node": ">=6.0.0"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ember-cli-deploy-firebase": "^0.2.9",
-    "ember-cli-deploy-firebase-pack": "^0.3.2",
+    "ember-cli-deploy": "^1.0.0",
     "ember-cli-deploy-gzip": "^1.0.0",
-    "ember-cli-deploy-s3": "^1.1.0",
-    "ember-cli-inject-live-reload": "^1.4.0"
+    "ember-cli-inject-live-reload": "^1.4.0",
+    "ember-pagefront": "^0.11.2"
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "broccoli-asset-rev": "^2.5.0",
+    "dotenv": "^4.0.0",
     "ember-ajax": "^2.0.1",
     "ember-cli": "2.12.2",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-dependency-checker": "^1.2.0",
-    "ember-cli-deploy": "^1.0.0",
     "ember-cli-deploy-build": "^1.1.0",
+    "ember-cli-dotenv": "^1.2.0",
     "ember-cli-eslint": "^3.1.0",
     "ember-cli-fastboot": "^1.0.0-rc.1",
     "ember-cli-htmlbars": "^1.0.3",
@@ -62,8 +62,6 @@
     "ember-web-app": "^1.2.0",
     "ember-web-app-rename": "^1.0.0",
     "eslint": "^3.19.0",
-    "firebase-admin": "^5.0.0",
-    "firebase-functions": "^0.5.7",
     "loader.js": "^4.0.1",
     "moment": "^2.18.1"
   }

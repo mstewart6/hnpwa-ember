@@ -11,8 +11,8 @@ module.exports = function(defaults) {
     },
 
     fingerprint: {
-      generateAssetMap: true,
-      prepend: (env === 'production') ? 'https://s3.amazonaws.com/hnpwa-ember/' : '/'
+      generateAssetMap: true//,
+      // prepend: (env === 'production') ? 'https://s3.amazonaws.com/hnpwa-ember/' : '/'
     }
   });
 
