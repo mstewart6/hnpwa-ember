@@ -1,5 +1,6 @@
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var env = EmberApp.env() || 'development';
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
@@ -10,7 +11,8 @@ module.exports = function(defaults) {
     },
 
     fingerprint: {
-      generateAssetMap: true
+      generateAssetMap: true,
+      prepend: (env === 'production') ? 'https://s3.amazonaws.com/hnpwa-ember/' : '/'
     }
   });
 

@@ -17,6 +17,44 @@
     {{content-for "head-footer"}}
   </head>
   <body>
+    <nav role="navigation" class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link">
+          <img src="{{rootURL}}assets/images/icon-192x192.png" class="brand" alt="logo">
+        </li>
+
+        <li class="navbar-link">
+          <a href="/top">
+            top
+          </a>
+        </li>
+
+        <li class="navbar-link">
+          <a href="/new">
+            new
+          </a>
+        </li>
+
+        <li class="navbar-link">
+          <a href="/show">
+            show
+          </a>
+        </li>
+
+        <li class="navbar-link">
+          <a href="/ask">
+            ask
+          </a>
+        </li>
+
+        <li class="navbar-link">
+          <a href="/jobs">
+            jobs
+          </a>
+        </li>
+      </ul>
+    </nav>
+
     {{content-for "body"}}
 
     <noscript>
