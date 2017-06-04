@@ -17,51 +17,13 @@
     {{content-for "head-footer"}}
   </head>
   <body>
-    <nav role="navigation" class="navbar">
-      <ul class="navbar-links">
-        <li class="navbar-link">
-          <img src="{{rootURL}}assets/images/icon-192x192.png" class="brand" alt="logo">
-        </li>
-
-        <li class="navbar-link">
-          <a href="/top">
-            top
-          </a>
-        </li>
-
-        <li class="navbar-link">
-          <a href="/new">
-            new
-          </a>
-        </li>
-
-        <li class="navbar-link">
-          <a href="/show">
-            show
-          </a>
-        </li>
-
-        <li class="navbar-link">
-          <a href="/ask">
-            ask
-          </a>
-        </li>
-
-        <li class="navbar-link">
-          <a href="/jobs">
-            jobs
-          </a>
-        </li>
-      </ul>
-    </nav>
-
     {{content-for "body"}}
 
     <noscript>
       Please enable javascript to use this site.
     </noscript>
 
-    <script async src="{{rootURL}}assets/app.js"></script>
+    <script async src="/assets/app.js"></script>
 
     <style>
       .card-list{width:75%;background-color:#fff;display:flex;flex-direction:column;align-self:center;overflow-y:scroll}.card-list>*{flex:1 1 auto}.card-list .pagination{display:flex;justify-content:space-between;align-items:center;height:30px;padding:10px}.card-list .pagination .pagination-button{background-color:inherit;border:none;text-align:center;text-decoration:none;display:inline-block;font-size:16px;cursor:pointer}.item-card{display:flex;align-items:center;border-bottom:1px solid #eee;margin:5px 10px;padding:5px;color:#333}.item-card-position{text-align:center;flex-basis:50px;flex-shrink:0}.item-card-body{flex-grow:1;padding-left:10px}.item-card-body-header{font-size:18px}.item-card-body-footer{font-size:14px}.item-card-body-footer a:hover{color:#f60}.item-card .muted{color:#999;font-size:12px}.comment-list .comment-body a,.comment-list .comment-header a:hover,.item-details-body a,.item-details-header-byline a:hover{color:#f60}.comment-list{width:calc(100% - 20px);background-color:#fff;padding:10px 10px 0}.comment-list .comment{margin:10px}.comment-list .comment-header{margin-bottom:15px;font-size:14px}.comment-list .comment-body{font-size:12px;margin-bottom:10px}.comment-list .comment-children{margin-left:15px;border-left:5px solid #666}.item-details{width:calc(100% - 40px);background-color:#fff;margin-bottom:10px;padding:20px}.item-details-header{margin-bottom:20px;font-size:20px;font-weight:700}.item-details-header-byline{font-size:12px;font-weight:400}body,html{margin:0;font-family:Arial,sans-serif;background-color:#eee;width:100%;height:100%}a,a:hover,a:visited{color:inherit;text-decoration:none}.ember-application>.ember-view{display:flex;flex-direction:column}.details{display:flex;flex-direction:column;align-items:center;align-self:center;width:75%}

@@ -9,8 +9,7 @@ const Router = Ember.Router.extend({
 // eslint-disable-next-line array-callback-return
 Router.map(function() {
   // Top-level navigation
-  this.route('index', { path: '/' });
-  this.route('top');
+  this.route('top', { path: '/' });
   this.route('new');
   this.route('show');
   this.route('ask');

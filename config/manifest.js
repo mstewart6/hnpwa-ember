@@ -1,18 +1,14 @@
-/*jshint node:true*/
 'use strict';
 
-module.exports = function(/* environment, appConfig */) {
-  // See https://github.com/san650/ember-web-app#documentation for a list of
-  // supported properties
-
+module.exports = function() {
   return {
-    name: "hnpwa-ember",
-    short_name: "hnpwa-ember",
-    description: "",
-    start_url: "/top",
-    display: "standalone",
-    background_color: "#fff",
-    theme_color: "#ff6600",
+    name: 'hnpwa-ember',
+    short_name: 'hnpwa-ember',
+    description: '',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#fff',
+    theme_color: '#ff6600',
     icons: [
       {
         src: '/assets/images/icon-192x192.png',
@@ -26,4 +22,4 @@ module.exports = function(/* environment, appConfig */) {
       }
     ]
   };
-}
+};
