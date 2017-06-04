@@ -3,16 +3,13 @@ module.exports = function(deployTarget) {
     build: {},
     gzip: {
       ignorePattern: '{fastboot/*.js,*.json,vendor*,hnpwa-ember*}',
-      keep: true
+      keep: true,
+      zopfli: true
     },
-    pagefront: {
-      app: 'hnpwa-ember',
-      key: process.env.PAGEFRONT_KEY
-    }//,
-    // s3: {
-    //   bucket: 'hnpwa-ember',
-    //   region: 'us-east-1'
-    // }
+    s3: {
+      bucket: 'hnpwa-ember',
+      region: 'us-east-1'
+    }
     // include other plugin configuration that applies to all deploy targets here
   };
 
@@ -29,9 +26,8 @@ module.exports = function(deployTarget) {
   if(deployTarget === 'production') {
     ENV.build.environment = 'production';
 
-    // This is just a placeholder to not leak keys, doesn't actually deploy this way
-    // ENV.s3.accessKeyId = process.env.S3_ACCESS_KEY;
-    // ENV.s3.secretAccessKey = process.env.S3_SECRET;
+    ENV.s3.accessKeyId = process.env.S3_ACCESS_KEY;
+    ENV.s3.secretAccessKey = process.env.S3_SECRET;
   }
 
   // Note: if you need to build some configuration asynchronously, you can return
