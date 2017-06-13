@@ -3,9 +3,16 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
+    addons: {
+      blacklist: [
+        // 'fastboot-app-server'
+      ]
+    },
+
     'esw-cache-fallback': {
       patterns: [
-        'https://node-hnapi.herokuapp.com/(.+)'
+        'https://node-hnapi.herokuapp.com/(.+)',
+        '/'
       ],
     },
 
