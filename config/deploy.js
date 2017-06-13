@@ -3,7 +3,6 @@ module.exports = function(deployTarget) {
     build: {},
     gzip: {
       ignorePattern: '{fastboot/*.js,*.json,vendor*,hnpwa-ember*}',
-      keep: true,
       zopfli: true
     }
     // include other plugin configuration that applies to all deploy targets here

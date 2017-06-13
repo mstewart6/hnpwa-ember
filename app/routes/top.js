@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  modelName: 'top-story',
+
   model(params) {
-    return Ember.RSVP.hash({
-      items: this.store.query('top-story', { page: params.page || 1 })
-    });
+    return this.store.query('top-story', { page: params.page || 1 });
   },
 
   queryParams: {

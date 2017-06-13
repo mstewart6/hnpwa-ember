@@ -7,7 +7,11 @@ export default Model.extend({
   comments_count: attr('number'),
   content: attr('string'),
   domain: attr('string'),
-  points: attr('number'),
+  points: attr('number', {
+    defaultValue() {
+      return 0;
+    }
+  }),
   time_ago: attr('string'),
   title: attr('string'),
   type: attr('string'),

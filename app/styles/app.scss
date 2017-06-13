@@ -1,5 +1,10 @@
 @import 'variables';
 
+#hnpwa-ember-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @import 'components/nav-bar';
 @import 'components/card-list';
 @import 'components/item-card';
