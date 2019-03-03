@@ -1,128 +1,42 @@
 module.exports = {
   root: true,
-  extends: 'eslint:recommended',
-  parser: 'babel-eslint',
   parserOptions: {
-    'ecmaVersion': 2017,
-    'sourceType': 'module'
+    ecmaVersion: 2017,
+    sourceType: 'module'
   },
-  globals: {
-    '_': true,
-    'server': true
-  },
+  plugins: [
+    'ember'
+  ],
+  extends: [
+    'eslint:recommended',
+    'plugin:ember/recommended'
+  ],
   env: {
-    'browser': true,
-    'jquery' : true
+    browser: true
   },
   rules: {
-    // Possible Errors
-    'no-unsafe-finally': 'error',
-    'no-cond-assign': ['error', 'always'],
-    'valid-jsdoc': 'error',
-
-    // Best Practices
-    'accessor-pairs': 'error',
-    'array-callback-return': 'error',
-    'block-scoped-var': 'error',
-    'curly': ['error', 'multi-line'],
-    'dot-location': ['error', 'property'],
-    'dot-notation': 'error',
-    'eqeqeq': 'error',
-    'guard-for-in': 'error',
-    'no-case-declarations': 'error',
-    'no-div-regex': 'error',
-    'no-extend-native': 'error',
-    'no-extra-bind': 'error',
-    'no-extra-label': 'error',
-    'no-floating-decimal': 'error',
-    'no-implicit-coercion': 'error',
-    'no-implicit-globals': 'error',
-    'no-iterator': 'error',
-    'no-labels': 'error',
-    'no-lone-blocks': 'error',
-    'no-loop-func': 'error',
-    'no-multi-str': 'error',
-    'no-native-reassign': 'error',
-    'no-new': 'error',
-    'no-new-func': 'error',
-    'no-new-wrappers': 'error',
-    'no-octal-escape': 'error',
-    'no-proto': 'error',
-    'no-return-assign': 'error',
-    'no-self-compare': 'error',
-    'no-sequences': 'error',
-    'no-throw-literal': 'error',
-    'no-unmodified-loop-condition': 'error',
-    'no-unused-expressions': 'error',
-    'no-useless-call': 'error',
-    'no-useless-concat': 'error',
-    'no-useless-escape': 'error',
-    'no-void': 'error',
-    'no-with': 'error',
-    'radix': 'error',
-    'vars-on-top': 'error',
-    'no-catch-shadow': 'error',
-    'no-undef-init': 'error',
-    'no-use-before-define': 'error',
-    'yoda': ['error', 'never'],
-    // Stylistic Issues
-    'array-bracket-spacing': 'error',
-    'block-spacing': 'error',
-    'brace-style': 'error',
-    'camelcase': ['error', {'properties': 'never'}],
-    'comma-spacing': 'error',
-    'comma-style': 'error',
-    'computed-property-spacing': 'error',
-    'consistent-this': 'error',
-    'eol-last': 'error',
-    'func-style': ['error', 'declaration', {'allowArrowFunctions': true}],
-    'indent': ['error', 2, { 'VariableDeclarator': {'var': 2, 'let': 2, 'const': 3}, 'SwitchCase': 1 }],
-    'key-spacing': 'error',
-    'keyword-spacing': [
-      'error',
-      {
-        'overrides': {
-          'if': {'after': false},
-          'for': {'after': false},
-          'while': {'after': false},
-          'switch': {'after': false}
-        }
+  },
+  overrides: [
+    // node files
+    {
+      files: [
+        '.eslintrc.js',
+        '.template-lintrc.js',
+        'ember-cli-build.js',
+        'testem.js',
+        'blueprints/*/index.js',
+        'config/**/*.js',
+        'lib/*/index.js',
+        'server/**/*.js'
+      ],
+      parserOptions: {
+        sourceType: 'script',
+        ecmaVersion: 2015
+      },
+      env: {
+        browser: false,
+        node: true
       }
-    ],
-    'linebreak-style': 'error',
-    'max-len': ['error', 160],
-    'max-statements-per-line': ['error', {'max': 1}],
-    'new-cap': 'error',
-    'new-parens': 'error',
-    'no-array-constructor': 'error',
-    'no-inline-comments': 'error',
-    'no-lonely-if': 'error',
-    'no-mixed-spaces-and-tabs': 'error',
-    'no-multiple-empty-lines': 'error',
-    'no-nested-ternary': 'error',
-    'no-new-object': 'error',
-    'no-spaced-func': 'error',
-    'no-trailing-spaces': 'error',
-    'no-underscore-dangle': ['error', {'allowAfterThis': true}],
-    'no-unneeded-ternary': 'error',
-    'no-whitespace-before-property': 'error',
-    'no-unused-vars': [ 'error', { 'argsIgnorePattern': '^_' } ],
-    'object-curly-spacing': ['error', 'always'],
-    'one-var': ['error', {'let': 'always', 'const': 'always'}],
-    'one-var-declaration-per-line': 'error',
-    'operator-assignment': 'error',
-    'operator-linebreak': 'error',
-    'padded-blocks': ['error', 'never'],
-    'quote-props': ['error', 'as-needed'],
-    'quotes': ['error', 'single', {'avoidEscape': true}],
-    'radix': ['error', 'always'],
-    'semi': 'error',
-    'semi-spacing': 'error',
-    'space-before-blocks': 'error',
-    'space-before-function-paren': ['error', 'never'],
-    'space-infix-ops': 'error',
-    'space-unary-ops': 'error',
-    'spaced-comment': 'error',
-    'space-in-parens': ['error', 'never']
-  }
+    }
+  ]
 };

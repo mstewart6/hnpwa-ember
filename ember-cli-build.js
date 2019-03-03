@@ -1,19 +1,10 @@
-/* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
-var env = EmberApp.env() || 'development';
+'use strict';
+
+const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
-  var app = new EmberApp(defaults, {
-    'esw-cache-fallback': {
-      patterns: [
-        'https://node-hnapi.herokuapp.com/(.+)'
-      ],
-    },
-
-    fingerprint: {
-      generateAssetMap: true,
-      prepend: (env === 'production') ? 'https://s3.amazonaws.com/hnpwa-ember/' : '/'
-    }
+  let app = new EmberApp(defaults, {
+    // Add options here
   });
 
   // Use `app.import` to add additional libraries to the generated

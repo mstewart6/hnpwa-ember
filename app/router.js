@@ -1,28 +1,13 @@
-import Ember from 'ember';
+import EmberRouter from '@ember/routing/router';
 import config from './config/environment';
 
-const Router = Ember.Router.extend({
+const Router = EmberRouter.extend({
   location: config.locationType,
   rootURL: config.rootURL
 });
 
-// eslint-disable-next-line array-callback-return
 Router.map(function() {
-  // Top-level navigation
-  this.route('index', { path: '/' });
-  this.route('top');
-  this.route('new');
-  this.route('show');
-  this.route('ask');
-  this.route('jobs');
-
-  // Article and user pages
-  this.route('item', { path: '/item/:item_id' });
-  this.route('user', { path: '/user/:user_id' });
+  this.route('top-stories', { path: '/' });
 });
 
 export default Router;
-
-/*
-https://hacker-news.firebaseio.com/v0/beststories
-*/
