@@ -1,1 +1,15 @@
-{{outlet}}
+<ul>
+  {{#each this.model as |story|}}
+    <ListStory @story={{story}} />
+  {{/each}}
+</ul>
+
+{{#if (gt this.page 1)}}
+  {{#link-to "top-stories" (query-params page=(sub this.page 1))}}
+    Prev
+  {{/link-to}}
+{{/if}}
+
+{{#link-to "top-stories" (query-params page=(add this.page 1))}}
+  Next
+{{/link-to}}
