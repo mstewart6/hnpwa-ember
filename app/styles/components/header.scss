@@ -1,3 +1,27 @@
 .hnpwa-header {
-  background-color: fuchsia;
+  background-color: $primary;
+  color: $secondary;
+  font-size: 0;
+
+  a {
+    padding: 15px;
+    margin: 0;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 50px;
+    text-align: center;
+
+    &, &:hover, &:visited {
+      color: $secondary;
+    }
+
+    &.active {
+      background-color: $secondary;
+      color: $primary;
+    }
+
+    &:hover:not(.active) {
+      background-color: $tertiary;
+    }
+  }
 }

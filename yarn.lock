@@ -741,6 +741,141 @@
   dependencies:
     "@types/estree" "*"
 
+"@types/ember@^3.0.23":
+  version "3.0.29"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember/-/ember-3.0.29.tgz#a437a60a41f8df9cba52de267bfd0007566eae41"
+  integrity sha1-pDemCkH435y6Ut4me/0AB1ZurkE=
+  dependencies:
+    "@types/ember__application" "*"
+    "@types/ember__array" "*"
+    "@types/ember__component" "*"
+    "@types/ember__controller" "*"
+    "@types/ember__debug" "*"
+    "@types/ember__engine" "*"
+    "@types/ember__error" "*"
+    "@types/ember__object" "*"
+    "@types/ember__polyfills" "*"
+    "@types/ember__routing" "*"
+    "@types/ember__runloop" "*"
+    "@types/ember__service" "*"
+    "@types/ember__string" "*"
+    "@types/ember__test" "*"
+    "@types/ember__utils" "*"
+    "@types/htmlbars-inline-precompile" "*"
+    "@types/jquery" "*"
+    "@types/rsvp" "*"
+
+"@types/ember__application@*":
+  version "3.0.7"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__application/-/ember__application-3.0.7.tgz#8a34f6d75661256d6d6859dcdde848bdd3bea47e"
+  integrity sha1-ijT211ZhJW1taFnc3ehIvdO+pH4=
+  dependencies:
+    "@types/ember__application" "*"
+    "@types/ember__engine" "*"
+    "@types/ember__object" "*"
+    "@types/ember__routing" "*"
+
+"@types/ember__array@*":
+  version "3.0.4"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__array/-/ember__array-3.0.4.tgz#6b04b9188da1c315d808304c989a6e7ed24d7ad3"
+  integrity sha1-awS5GI2hwxXYCDBMmJpuftJNetM=
+  dependencies:
+    "@types/ember__array" "*"
+    "@types/ember__object" "*"
+
+"@types/ember__component@*":
+  version "3.0.5"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__component/-/ember__component-3.0.5.tgz#ae0a64d53ec3bff7a100347fac52320cba068c22"
+  integrity sha1-rgpk1T7Dv/ehADR/rFIyDLoGjCI=
+  dependencies:
+    "@types/ember__component" "*"
+    "@types/ember__object" "*"
+    "@types/jquery" "*"
+
+"@types/ember__controller@*":
+  version "3.0.4"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__controller/-/ember__controller-3.0.4.tgz#27b7da14770c3b5eb48c70eea6ebab13fa8987da"
+  integrity sha1-J7faFHcMO160jHDupuurE/qJh9o=
+  dependencies:
+    "@types/ember__object" "*"
+
+"@types/ember__debug@*":
+  version "3.0.4"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__debug/-/ember__debug-3.0.4.tgz#cdf87a580688a0e3053820eff6f390fbb7ba0e80"
+  integrity sha1-zfh6WAaIoOMFOCDv9vOQ+7e6DoA=
+  dependencies:
+    "@types/ember__debug" "*"
+    "@types/ember__engine" "*"
+    "@types/ember__object" "*"
+
+"@types/ember__engine@*":
+  version "3.0.4"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__engine/-/ember__engine-3.0.4.tgz#7e79d72653f5c7fd9f6d828d32540be372128aca"
+  integrity sha1-fnnXJlP1x/2fbYKNMlQL43ISiso=
+  dependencies:
+    "@types/ember__engine" "*"
+    "@types/ember__object" "*"
+
+"@types/ember__error@*":
+  version "3.0.3"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__error/-/ember__error-3.0.3.tgz#73e5d9f05212d7965e7c2f4df39abdbf5ea41ab1"
+  integrity sha1-c+XZ8FIS15ZefC9N85q9v16kGrE=
+
+"@types/ember__object@*":
+  version "3.0.8"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__object/-/ember__object-3.0.8.tgz#b62daeb8c86e377831c8320ba6dfaae9613bee8e"
+  integrity sha1-ti2uuMhuN3gxyDILpt+q6WE77o4=
+  dependencies:
+    "@types/ember__object" "*"
+    "@types/rsvp" "*"
+
+"@types/ember__polyfills@*":
+  version "3.0.5"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__polyfills/-/ember__polyfills-3.0.5.tgz#8f2c97b42f089afed53b4c137a6d7bbf4f7aa12e"
+  integrity sha1-jyyXtC8Imv7VO0wTem17v096oS4=
+
+"@types/ember__routing@*":
+  version "3.0.7"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__routing/-/ember__routing-3.0.7.tgz#73f54958ae0a7d28a8da0f91e928a8a48eab02b9"
+  integrity sha1-c/VJWK4KfSio2g+R6SiopI6rArk=
+  dependencies:
+    "@types/ember__component" "*"
+    "@types/ember__controller" "*"
+    "@types/ember__object" "*"
+    "@types/ember__routing" "*"
+    "@types/ember__service" "*"
+
+"@types/ember__runloop@*":
+  version "3.0.5"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__runloop/-/ember__runloop-3.0.5.tgz#7101cc0d5b06d2b578a34ce4b9e8355d9061ac71"
+  integrity sha1-cQHMDVsG0rV4o0zkueg1XZBhrHE=
+  dependencies:
+    "@types/ember__runloop" "*"
+
+"@types/ember__service@*":
+  version "3.0.3"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__service/-/ember__service-3.0.3.tgz#1c43997be716d557f3553c0d27707f62fbabb26d"
+  integrity sha1-HEOZe+cW1VfzVTwNJ3B/Yvursm0=
+  dependencies:
+    "@types/ember__object" "*"
+
+"@types/ember__string@*":
+  version "3.0.6"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__string/-/ember__string-3.0.6.tgz#79b10b0fc0136a9c86536bc55cbd18cae9a9bd3b"
+  integrity sha1-ebELD8ATapyGU2vFXL0YyumpvTs=
+
+"@types/ember__test@*":
+  version "3.0.5"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__test/-/ember__test-3.0.5.tgz#8435b9b3caa5b97a9057d8f4e922c20f2279f93f"
+  integrity sha1-hDW5s8qluXqQV9j06SLCDyJ5+T8=
+  dependencies:
+    "@types/ember__application" "*"
+
+"@types/ember__utils@*":
+  version "3.0.2"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__utils/-/ember__utils-3.0.2.tgz#d4c32007d0c84c95faa9221a1582b87ac3b1b4f3"
+  integrity sha1-1MMgB9DITJX6qSIaFYK4esOxtPM=
+
 "@types/estree@*", "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -760,6 +895,18 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/htmlbars-inline-precompile@*":
+  version "1.0.1"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/htmlbars-inline-precompile/-/htmlbars-inline-precompile-1.0.1.tgz#de564513fabb165746aecd76369c87bd85e5bbb4"
+  integrity sha1-3lZFE/q7FldGrs12NpyHvYXlu7Q=
+
+"@types/jquery@*":
+  version "3.3.29"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/jquery/-/jquery-3.3.29.tgz#680a2219ce3c9250483722fccf5570d1e2d08abd"
+  integrity sha1-aAoiGc48klBINyL8z1Vw0eLQir0=
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/minimatch@*", "@types/minimatch@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -774,6 +921,16 @@
   version "9.6.44"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.44.tgz#70bb8b5fab1f9e461c2a46a5a4fedfe3af6e2f87"
   integrity sha512-hR+jK4kSOX+u5aQ6Zj6az5N4l1AeXH37/sOenbgxJvkO450C5qQL4/1twdufIMLC3o3hNfJNrPfQn0ivMdKfPg==
+
+"@types/rsvp@*", "@types/rsvp@^4.0.2":
+  version "4.0.2"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/rsvp/-/rsvp-4.0.2.tgz#bf9f72eaa6771292638a85bb8ce1db97e754b371"
+  integrity sha1-v59y6qZ3EpJjioW7jOHbl+dUs3E=
+
+"@types/sizzle@*":
+  version "2.3.2"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
+  integrity sha1-qBG4wY4rq6t9VCszZYh64uTZ3kc=
 
 abbrev@1:
   version "1.1.1"
@@ -1233,7 +1390,7 @@ babel-plugin-debug-macros@^0.1.10:
   dependencies:
     semver "^5.3.0"
 
-babel-plugin-debug-macros@^0.2.0-beta.6:
+babel-plugin-debug-macros@^0.2.0, babel-plugin-debug-macros@^0.2.0-beta.6:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-debug-macros/-/babel-plugin-debug-macros-0.2.0.tgz#0120ac20ce06ccc57bf493b667cf24b85c28da7a"
   integrity sha512-Wpmw4TbhR3Eq2t3W51eBAQSdKlr+uAyF0GI4GtPfMCD12Y4cIdpKC9l0RjNTH/P9isFypSqqewMPm7//fnZlNA==
@@ -2992,6 +3149,16 @@ ember-ajax@^4.0.1:
     ember-cli-babel "^6.16.0"
     najax "^1.0.3"
 
+ember-app-scheduler@^1.0.5:
+  version "1.0.6"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-app-scheduler/-/ember-app-scheduler-1.0.6.tgz#b7972c5ae51643d41769dba40ef96e0cc188f553"
+  integrity sha1-t5csWuUWQ9QXadukDvluDMGI9VM=
+  dependencies:
+    "@types/ember" "^3.0.23"
+    "@types/rsvp" "^4.0.2"
+    ember-cli-babel "^7.1.3"
+    ember-compatibility-helpers "^1.1.2"
+
 ember-assign-polyfill@~2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/ember-assign-polyfill/-/ember-assign-polyfill-2.4.0.tgz#acb00466f7d674b3e6b030acfe255b3b1f6472e1"
@@ -3027,7 +3194,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.1.2, ember-cli-babel@^7.2.0:
+ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cli-babel@^7.2.0:
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.5.0.tgz#af654dcef23630391d2efe85aaa3bdf8b6ca17b7"
   integrity sha512-wWXqPPQNRxCtEHvYaLBNiIVgCVCy8YqZ0tM8Dpql1D5nGnPDbaK073sS1vlOYBP7xe5Ab2nXhvQkFwUxFacJ2g==
@@ -3213,7 +3380,7 @@ ember-cli-uglify@^2.1.0:
     broccoli-uglify-sourcemap "^2.1.1"
     lodash.defaultsdeep "^4.6.0"
 
-ember-cli-version-checker@^2.0.0, ember-cli-version-checker@^2.1.0, ember-cli-version-checker@^2.1.2:
+ember-cli-version-checker@^2.0.0, ember-cli-version-checker@^2.1.0, ember-cli-version-checker@^2.1.1, ember-cli-version-checker@^2.1.2:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/ember-cli-version-checker/-/ember-cli-version-checker-2.2.0.tgz#47771b731fe0962705e27c8199a9e3825709f3b3"
   integrity sha512-G+KtYIVlSOWGcNaTFHk76xR4GdzDLzAS4uxZUKdASuFX0KJE43C6DaqL+y3VTpUFLI2FIkAS6HZ4I1YBi+S3hg==
@@ -3325,12 +3492,28 @@ ember-cli@~3.8.1:
     watch-detector "^0.1.0"
     yam "^1.0.0"
 
+ember-compatibility-helpers@^1.1.2:
+  version "1.2.0"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-compatibility-helpers/-/ember-compatibility-helpers-1.2.0.tgz#feee16c5e9ef1b1f1e53903b241740ad4b01097e"
+  integrity sha1-/u4WxenvGx8eU5A7JBdArUsBCX4=
+  dependencies:
+    babel-plugin-debug-macros "^0.2.0"
+    ember-cli-version-checker "^2.1.1"
+    semver "^5.4.1"
+
 ember-export-application-global@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ember-export-application-global/-/ember-export-application-global-2.0.0.tgz#8d6d7619ac8a1a3f8c43003549eb21ebed685bd2"
   integrity sha1-jW12GayKGj+MQwA1Sesh6+1oW9I=
   dependencies:
     ember-cli-babel "^6.0.0-beta.7"
+
+ember-factory-for-polyfill@^1.3.1:
+  version "1.3.1"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-factory-for-polyfill/-/ember-factory-for-polyfill-1.3.1.tgz#b446ed64916d293c847a4955240eb2c993b86eae"
+  integrity sha1-tEbtZJFtKTyEeklVJA6yyZO4bq4=
+  dependencies:
+    ember-cli-version-checker "^2.1.0"
 
 ember-fetch@^6.4.0:
   version "6.4.0"
@@ -3349,6 +3532,14 @@ ember-fetch@^6.4.0:
     ember-cli-babel "^6.8.2"
     node-fetch "^2.3.0"
     whatwg-fetch "^3.0.0"
+
+ember-getowner-polyfill@^2.2.0:
+  version "2.2.0"
+  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-getowner-polyfill/-/ember-getowner-polyfill-2.2.0.tgz#38e7dccbcac69d5ec694000329ec0b2be651d2b2"
+  integrity sha1-OOfcy8rGnV7GlAADKewLK+ZR0rI=
+  dependencies:
+    ember-cli-version-checker "^2.1.0"
+    ember-factory-for-polyfill "^1.3.1"
 
 ember-load-initializers@^1.1.0:
   version "1.1.0"
@@ -3413,6 +3604,15 @@ ember-router-generator@^1.2.3:
   integrity sha1-jtLKhv8yM2MSD8FCeBkeno8TFe4=
   dependencies:
     recast "^0.11.3"
+
+ember-router-scroll@dollarshaveclub/ember-router-scroll:
+  version "1.0.2"
+  resolved "https://codeload.github.com/dollarshaveclub/ember-router-scroll/tar.gz/0ddf9064f5f8c3e1921a26179df170df9771ae7c"
+  dependencies:
+    ember-app-scheduler "^1.0.5"
+    ember-cli-babel "^7.1.2"
+    ember-compatibility-helpers "^1.1.2"
+    ember-getowner-polyfill "^2.2.0"
 
 ember-source-channel-url@^1.1.0:
   version "1.1.0"

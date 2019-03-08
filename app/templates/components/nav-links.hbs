@@ -1,0 +1,9 @@
+{{#if (gt page 1)}}
+  {{#link-to route (query-params page=(sub page 1))}}
+    Prev
+  {{/link-to}}
+{{/if}}
+
+{{#link-to route (query-params page=(add page 1))}}
+  Next
+{{/link-to}}
