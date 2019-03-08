@@ -743,7 +743,7 @@
 
 "@types/ember@^3.0.23":
   version "3.0.29"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember/-/ember-3.0.29.tgz#a437a60a41f8df9cba52de267bfd0007566eae41"
+  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-3.0.29.tgz#a437a60a41f8df9cba52de267bfd0007566eae41"
   integrity sha1-pDemCkH435y6Ut4me/0AB1ZurkE=
   dependencies:
     "@types/ember__application" "*"
@@ -767,7 +767,7 @@
 
 "@types/ember__application@*":
   version "3.0.7"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__application/-/ember__application-3.0.7.tgz#8a34f6d75661256d6d6859dcdde848bdd3bea47e"
+  resolved "https://registry.yarnpkg.com/@types/ember__application/-/ember__application-3.0.7.tgz#8a34f6d75661256d6d6859dcdde848bdd3bea47e"
   integrity sha1-ijT211ZhJW1taFnc3ehIvdO+pH4=
   dependencies:
     "@types/ember__application" "*"
@@ -777,7 +777,7 @@
 
 "@types/ember__array@*":
   version "3.0.4"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__array/-/ember__array-3.0.4.tgz#6b04b9188da1c315d808304c989a6e7ed24d7ad3"
+  resolved "https://registry.yarnpkg.com/@types/ember__array/-/ember__array-3.0.4.tgz#6b04b9188da1c315d808304c989a6e7ed24d7ad3"
   integrity sha1-awS5GI2hwxXYCDBMmJpuftJNetM=
   dependencies:
     "@types/ember__array" "*"
@@ -785,7 +785,7 @@
 
 "@types/ember__component@*":
   version "3.0.5"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__component/-/ember__component-3.0.5.tgz#ae0a64d53ec3bff7a100347fac52320cba068c22"
+  resolved "https://registry.yarnpkg.com/@types/ember__component/-/ember__component-3.0.5.tgz#ae0a64d53ec3bff7a100347fac52320cba068c22"
   integrity sha1-rgpk1T7Dv/ehADR/rFIyDLoGjCI=
   dependencies:
     "@types/ember__component" "*"
@@ -794,14 +794,14 @@
 
 "@types/ember__controller@*":
   version "3.0.4"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__controller/-/ember__controller-3.0.4.tgz#27b7da14770c3b5eb48c70eea6ebab13fa8987da"
+  resolved "https://registry.yarnpkg.com/@types/ember__controller/-/ember__controller-3.0.4.tgz#27b7da14770c3b5eb48c70eea6ebab13fa8987da"
   integrity sha1-J7faFHcMO160jHDupuurE/qJh9o=
   dependencies:
     "@types/ember__object" "*"
 
 "@types/ember__debug@*":
   version "3.0.4"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__debug/-/ember__debug-3.0.4.tgz#cdf87a580688a0e3053820eff6f390fbb7ba0e80"
+  resolved "https://registry.yarnpkg.com/@types/ember__debug/-/ember__debug-3.0.4.tgz#cdf87a580688a0e3053820eff6f390fbb7ba0e80"
   integrity sha1-zfh6WAaIoOMFOCDv9vOQ+7e6DoA=
   dependencies:
     "@types/ember__debug" "*"
@@ -810,7 +810,7 @@
 
 "@types/ember__engine@*":
   version "3.0.4"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__engine/-/ember__engine-3.0.4.tgz#7e79d72653f5c7fd9f6d828d32540be372128aca"
+  resolved "https://registry.yarnpkg.com/@types/ember__engine/-/ember__engine-3.0.4.tgz#7e79d72653f5c7fd9f6d828d32540be372128aca"
   integrity sha1-fnnXJlP1x/2fbYKNMlQL43ISiso=
   dependencies:
     "@types/ember__engine" "*"
@@ -818,12 +818,12 @@
 
 "@types/ember__error@*":
   version "3.0.3"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__error/-/ember__error-3.0.3.tgz#73e5d9f05212d7965e7c2f4df39abdbf5ea41ab1"
+  resolved "https://registry.yarnpkg.com/@types/ember__error/-/ember__error-3.0.3.tgz#73e5d9f05212d7965e7c2f4df39abdbf5ea41ab1"
   integrity sha1-c+XZ8FIS15ZefC9N85q9v16kGrE=
 
 "@types/ember__object@*":
   version "3.0.8"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__object/-/ember__object-3.0.8.tgz#b62daeb8c86e377831c8320ba6dfaae9613bee8e"
+  resolved "https://registry.yarnpkg.com/@types/ember__object/-/ember__object-3.0.8.tgz#b62daeb8c86e377831c8320ba6dfaae9613bee8e"
   integrity sha1-ti2uuMhuN3gxyDILpt+q6WE77o4=
   dependencies:
     "@types/ember__object" "*"
@@ -831,12 +831,12 @@
 
 "@types/ember__polyfills@*":
   version "3.0.5"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__polyfills/-/ember__polyfills-3.0.5.tgz#8f2c97b42f089afed53b4c137a6d7bbf4f7aa12e"
+  resolved "https://registry.yarnpkg.com/@types/ember__polyfills/-/ember__polyfills-3.0.5.tgz#8f2c97b42f089afed53b4c137a6d7bbf4f7aa12e"
   integrity sha1-jyyXtC8Imv7VO0wTem17v096oS4=
 
 "@types/ember__routing@*":
   version "3.0.7"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__routing/-/ember__routing-3.0.7.tgz#73f54958ae0a7d28a8da0f91e928a8a48eab02b9"
+  resolved "https://registry.yarnpkg.com/@types/ember__routing/-/ember__routing-3.0.7.tgz#73f54958ae0a7d28a8da0f91e928a8a48eab02b9"
   integrity sha1-c/VJWK4KfSio2g+R6SiopI6rArk=
   dependencies:
     "@types/ember__component" "*"
@@ -847,33 +847,33 @@
 
 "@types/ember__runloop@*":
   version "3.0.5"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__runloop/-/ember__runloop-3.0.5.tgz#7101cc0d5b06d2b578a34ce4b9e8355d9061ac71"
+  resolved "https://registry.yarnpkg.com/@types/ember__runloop/-/ember__runloop-3.0.5.tgz#7101cc0d5b06d2b578a34ce4b9e8355d9061ac71"
   integrity sha1-cQHMDVsG0rV4o0zkueg1XZBhrHE=
   dependencies:
     "@types/ember__runloop" "*"
 
 "@types/ember__service@*":
   version "3.0.3"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__service/-/ember__service-3.0.3.tgz#1c43997be716d557f3553c0d27707f62fbabb26d"
+  resolved "https://registry.yarnpkg.com/@types/ember__service/-/ember__service-3.0.3.tgz#1c43997be716d557f3553c0d27707f62fbabb26d"
   integrity sha1-HEOZe+cW1VfzVTwNJ3B/Yvursm0=
   dependencies:
     "@types/ember__object" "*"
 
 "@types/ember__string@*":
   version "3.0.6"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__string/-/ember__string-3.0.6.tgz#79b10b0fc0136a9c86536bc55cbd18cae9a9bd3b"
+  resolved "https://registry.yarnpkg.com/@types/ember__string/-/ember__string-3.0.6.tgz#79b10b0fc0136a9c86536bc55cbd18cae9a9bd3b"
   integrity sha1-ebELD8ATapyGU2vFXL0YyumpvTs=
 
 "@types/ember__test@*":
   version "3.0.5"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__test/-/ember__test-3.0.5.tgz#8435b9b3caa5b97a9057d8f4e922c20f2279f93f"
+  resolved "https://registry.yarnpkg.com/@types/ember__test/-/ember__test-3.0.5.tgz#8435b9b3caa5b97a9057d8f4e922c20f2279f93f"
   integrity sha1-hDW5s8qluXqQV9j06SLCDyJ5+T8=
   dependencies:
     "@types/ember__application" "*"
 
 "@types/ember__utils@*":
   version "3.0.2"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/ember__utils/-/ember__utils-3.0.2.tgz#d4c32007d0c84c95faa9221a1582b87ac3b1b4f3"
+  resolved "https://registry.yarnpkg.com/@types/ember__utils/-/ember__utils-3.0.2.tgz#d4c32007d0c84c95faa9221a1582b87ac3b1b4f3"
   integrity sha1-1MMgB9DITJX6qSIaFYK4esOxtPM=
 
 "@types/estree@*", "@types/estree@0.0.39":
@@ -897,12 +897,12 @@
 
 "@types/htmlbars-inline-precompile@*":
   version "1.0.1"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/htmlbars-inline-precompile/-/htmlbars-inline-precompile-1.0.1.tgz#de564513fabb165746aecd76369c87bd85e5bbb4"
+  resolved "https://registry.yarnpkg.com/@types/htmlbars-inline-precompile/-/htmlbars-inline-precompile-1.0.1.tgz#de564513fabb165746aecd76369c87bd85e5bbb4"
   integrity sha1-3lZFE/q7FldGrs12NpyHvYXlu7Q=
 
 "@types/jquery@*":
   version "3.3.29"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/jquery/-/jquery-3.3.29.tgz#680a2219ce3c9250483722fccf5570d1e2d08abd"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.29.tgz#680a2219ce3c9250483722fccf5570d1e2d08abd"
   integrity sha1-aAoiGc48klBINyL8z1Vw0eLQir0=
   dependencies:
     "@types/sizzle" "*"
@@ -924,12 +924,12 @@
 
 "@types/rsvp@*", "@types/rsvp@^4.0.2":
   version "4.0.2"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/rsvp/-/rsvp-4.0.2.tgz#bf9f72eaa6771292638a85bb8ce1db97e754b371"
+  resolved "https://registry.yarnpkg.com/@types/rsvp/-/rsvp-4.0.2.tgz#bf9f72eaa6771292638a85bb8ce1db97e754b371"
   integrity sha1-v59y6qZ3EpJjioW7jOHbl+dUs3E=
 
 "@types/sizzle@*":
   version "2.3.2"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
   integrity sha1-qBG4wY4rq6t9VCszZYh64uTZ3kc=
 
 abbrev@1:
@@ -939,7 +939,7 @@ abbrev@1:
 
 abortcontroller-polyfill@^1.2.1:
   version "1.2.5"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/abortcontroller-polyfill/-/abortcontroller-polyfill-1.2.5.tgz#a091ba2d0ea7bae64d6a5f474089a6ab495cec2b"
+  resolved "https://registry.yarnpkg.com/abortcontroller-polyfill/-/abortcontroller-polyfill-1.2.5.tgz#a091ba2d0ea7bae64d6a5f474089a6ab495cec2b"
   integrity sha1-oJG6LQ6nuuZNal9HQImmq0lc7Cs=
 
 accepts@~1.3.4, accepts@~1.3.5:
@@ -1170,7 +1170,7 @@ async-disk-cache@^1.2.1:
 
 async-each@^1.0.1:
   version "1.0.1"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
+  resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
   integrity sha1-GdOGodntxufByF04iu28xW0zYC0=
 
 async-limiter@~1.0.0:
@@ -1828,7 +1828,7 @@ better-assert@~1.0.0:
 
 binary-extensions@^1.0.0:
   version "1.13.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/binary-extensions/-/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
+  resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.0.tgz#9523e001306a32444b907423f1de2164222f6ab1"
   integrity sha1-lSPgATBqMkRLkHQj8d4hZCIvarE=
 
 "binaryextensions@1 || 2":
@@ -2298,7 +2298,7 @@ broccoli-rollup@^2.1.1:
 
 broccoli-sass-source-maps@^4.0.0:
   version "4.0.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/broccoli-sass-source-maps/-/broccoli-sass-source-maps-4.0.0.tgz#1ee4c10a810b10955b0502e28f85ab672f5961a2"
+  resolved "https://registry.yarnpkg.com/broccoli-sass-source-maps/-/broccoli-sass-source-maps-4.0.0.tgz#1ee4c10a810b10955b0502e28f85ab672f5961a2"
   integrity sha1-HuTBCoELEJVbBQLij4WrZy9ZYaI=
   dependencies:
     broccoli-caching-writer "^3.0.3"
@@ -2352,7 +2352,7 @@ broccoli-stew@^2.0.0:
 
 broccoli-templater@^2.0.1:
   version "2.0.2"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/broccoli-templater/-/broccoli-templater-2.0.2.tgz#285a892071c0b3ad5ebc275d9e8b3465e2d120d6"
+  resolved "https://registry.yarnpkg.com/broccoli-templater/-/broccoli-templater-2.0.2.tgz#285a892071c0b3ad5ebc275d9e8b3465e2d120d6"
   integrity sha1-KFqJIHHAs61evCddnos0ZeLRINY=
   dependencies:
     broccoli-plugin "^1.3.1"
@@ -2530,7 +2530,7 @@ can-symlink@^1.0.0:
 
 caniuse-api@^3.0.0:
   version "3.0.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
+  resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
   integrity sha1-Xk2Q4idJYdRikZl99Znj7QCO5MA=
   dependencies:
     browserslist "^4.0.0"
@@ -2540,7 +2540,7 @@ caniuse-api@^3.0.0:
 
 caniuse-lite@^1.0.0:
   version "1.0.30000940"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/caniuse-lite/-/caniuse-lite-1.0.30000940.tgz#19f2b1497fbfa5b96b615963097c3757f27989ce"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000940.tgz#19f2b1497fbfa5b96b615963097c3757f27989ce"
   integrity sha1-GfKxSX+/pblrYVljCXw3V/J5ic4=
 
 caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000939:
@@ -2609,7 +2609,7 @@ charm@^1.0.0:
 
 chokidar@^2.0.0:
   version "2.1.2"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/chokidar/-/chokidar-2.1.2.tgz#9c23ea40b01638439e0513864d362aeacc5ad058"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.2.tgz#9c23ea40b01638439e0513864d362aeacc5ad058"
   integrity sha1-nCPqQLAWOEOeBROGTTYq6sxa0Fg=
   dependencies:
     anymatch "^2.0.0"
@@ -3151,7 +3151,7 @@ ember-ajax@^4.0.1:
 
 ember-app-scheduler@^1.0.5:
   version "1.0.6"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-app-scheduler/-/ember-app-scheduler-1.0.6.tgz#b7972c5ae51643d41769dba40ef96e0cc188f553"
+  resolved "https://registry.yarnpkg.com/ember-app-scheduler/-/ember-app-scheduler-1.0.6.tgz#b7972c5ae51643d41769dba40ef96e0cc188f553"
   integrity sha1-t5csWuUWQ9QXadukDvluDMGI9VM=
   dependencies:
     "@types/ember" "^3.0.23"
@@ -3328,7 +3328,7 @@ ember-cli-preprocess-registry@^3.1.2:
 
 ember-cli-sass@^10.0.0:
   version "10.0.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-cli-sass/-/ember-cli-sass-10.0.0.tgz#700094ebaf348896111756c2644f1e444b05323c"
+  resolved "https://registry.yarnpkg.com/ember-cli-sass/-/ember-cli-sass-10.0.0.tgz#700094ebaf348896111756c2644f1e444b05323c"
   integrity sha1-cACU6680iJYRF1bCZE8eREsFMjw=
   dependencies:
     broccoli-funnel "^2.0.1"
@@ -3494,7 +3494,7 @@ ember-cli@~3.8.1:
 
 ember-compatibility-helpers@^1.1.2:
   version "1.2.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-compatibility-helpers/-/ember-compatibility-helpers-1.2.0.tgz#feee16c5e9ef1b1f1e53903b241740ad4b01097e"
+  resolved "https://registry.yarnpkg.com/ember-compatibility-helpers/-/ember-compatibility-helpers-1.2.0.tgz#feee16c5e9ef1b1f1e53903b241740ad4b01097e"
   integrity sha1-/u4WxenvGx8eU5A7JBdArUsBCX4=
   dependencies:
     babel-plugin-debug-macros "^0.2.0"
@@ -3510,14 +3510,14 @@ ember-export-application-global@^2.0.0:
 
 ember-factory-for-polyfill@^1.3.1:
   version "1.3.1"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-factory-for-polyfill/-/ember-factory-for-polyfill-1.3.1.tgz#b446ed64916d293c847a4955240eb2c993b86eae"
+  resolved "https://registry.yarnpkg.com/ember-factory-for-polyfill/-/ember-factory-for-polyfill-1.3.1.tgz#b446ed64916d293c847a4955240eb2c993b86eae"
   integrity sha1-tEbtZJFtKTyEeklVJA6yyZO4bq4=
   dependencies:
     ember-cli-version-checker "^2.1.0"
 
 ember-fetch@^6.4.0:
   version "6.4.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-fetch/-/ember-fetch-6.4.0.tgz#806b2acfbda07f3b0dd48a9fcdbc575c5519611d"
+  resolved "https://registry.yarnpkg.com/ember-fetch/-/ember-fetch-6.4.0.tgz#806b2acfbda07f3b0dd48a9fcdbc575c5519611d"
   integrity sha1-gGsqz72gfzsN1IqfzbxXXFUZYR0=
   dependencies:
     abortcontroller-polyfill "^1.2.1"
@@ -3535,7 +3535,7 @@ ember-fetch@^6.4.0:
 
 ember-getowner-polyfill@^2.2.0:
   version "2.2.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-getowner-polyfill/-/ember-getowner-polyfill-2.2.0.tgz#38e7dccbcac69d5ec694000329ec0b2be651d2b2"
+  resolved "https://registry.yarnpkg.com/ember-getowner-polyfill/-/ember-getowner-polyfill-2.2.0.tgz#38e7dccbcac69d5ec694000329ec0b2be651d2b2"
   integrity sha1-OOfcy8rGnV7GlAADKewLK+ZR0rI=
   dependencies:
     ember-cli-version-checker "^2.1.0"
@@ -3550,7 +3550,7 @@ ember-load-initializers@^1.1.0:
 
 ember-math-helpers@^2.10.0:
   version "2.10.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-math-helpers/-/ember-math-helpers-2.10.0.tgz#a2646f9b6d4d09fed3cbb820a4845f7af18dfd14"
+  resolved "https://registry.yarnpkg.com/ember-math-helpers/-/ember-math-helpers-2.10.0.tgz#a2646f9b6d4d09fed3cbb820a4845f7af18dfd14"
   integrity sha1-omRvm21NCf7Ty7ggpIRfevGN/RQ=
   dependencies:
     broccoli-funnel "^2.0.0"
@@ -3655,7 +3655,7 @@ ember-template-lint@^1.0.0-beta.5:
 
 ember-truth-helpers@^2.1.0:
   version "2.1.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/ember-truth-helpers/-/ember-truth-helpers-2.1.0.tgz#d4dab4eee7945aa2388126485977baeb33ca0798"
+  resolved "https://registry.yarnpkg.com/ember-truth-helpers/-/ember-truth-helpers-2.1.0.tgz#d4dab4eee7945aa2388126485977baeb33ca0798"
   integrity sha1-1Nq07ueUWqI4gSZIWXe66zPKB5g=
   dependencies:
     ember-cli-babel "^6.6.0"
@@ -4771,7 +4771,7 @@ imurmurhash@^0.1.4:
 
 include-path-searcher@^0.1.0:
   version "0.1.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/include-path-searcher/-/include-path-searcher-0.1.0.tgz#c0cf2ddfa164fb2eae07bc7ca43a7f191cb4d7bd"
+  resolved "https://registry.yarnpkg.com/include-path-searcher/-/include-path-searcher-0.1.0.tgz#c0cf2ddfa164fb2eae07bc7ca43a7f191cb4d7bd"
   integrity sha1-wM8t36Fk+y6uB7x8pDp/GRy0170=
 
 indexof@0.0.1:
@@ -4888,7 +4888,7 @@ is-accessor-descriptor@^1.0.0:
 
 is-binary-path@^1.0.0:
   version "1.0.1"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/is-binary-path/-/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
+  resolved "https://registry.yarnpkg.com/is-binary-path/-/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
   integrity sha1-dfFmQrSA8YenEcgUFh/TpKdlWJg=
   dependencies:
     binary-extensions "^1.0.0"
@@ -5631,7 +5631,7 @@ lodash.keys@~2.3.0:
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
+  resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
 lodash.merge@^4.3.1, lodash.merge@^4.6.0:
@@ -5982,7 +5982,7 @@ mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1:
 
 mkdirp@^0.3.5:
   version "0.3.5"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/mkdirp/-/mkdirp-0.3.5.tgz#de3e5f8961c88c787ee1368df849ac4413eca8d7"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.3.5.tgz#de3e5f8961c88c787ee1368df849ac4413eca8d7"
   integrity sha1-3j5fiWHIjHh+4TaN+EmsRBPsqNc=
 
 mktemp@~0.4.0:
@@ -6090,7 +6090,7 @@ no-case@^2.2.0:
 
 node-fetch@^2.3.0:
   version "2.3.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
   integrity sha1-Gh2UC7+5FqHT4CGfA36J5x+MX6U=
 
 node-int64@^0.4.0:
@@ -6161,7 +6161,7 @@ normalize-path@^2.1.1:
 
 normalize-path@^3.0.0:
   version "3.0.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
+  resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
 normalize-url@2.0.1:
@@ -6225,7 +6225,7 @@ object-assign@4.1.1, object-assign@^4.0.1, object-assign@^4.1.0:
 
 object-assign@^2.0.0:
   version "2.1.1"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/object-assign/-/object-assign-2.1.1.tgz#43c36e5d569ff8e4816c4efa8be02d26967c18aa"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-2.1.1.tgz#43c36e5d569ff8e4816c4efa8be02d26967c18aa"
   integrity sha1-Q8NuXVaf+OSBbE76i+AtJpZ8GKo=
 
 object-component@0.0.3:
@@ -6739,7 +6739,7 @@ readable-stream@~1.0.2:
 
 readdirp@^2.2.1:
   version "2.2.1"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/readdirp/-/readdirp-2.2.1.tgz#0e87622a3325aa33e892285caf8b4e846529a525"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-2.2.1.tgz#0e87622a3325aa33e892285caf8b4e846529a525"
   integrity sha1-DodiKjMlqjPokihcr4tOhGUppSU=
   dependencies:
     graceful-fs "^4.1.11"
@@ -7115,7 +7115,7 @@ sane@^4.0.0:
 
 sass@^1.17.2:
   version "1.17.2"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/sass/-/sass-1.17.2.tgz#b5a28f2f13c6a219f28084c03623bb2c8d176323"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.17.2.tgz#b5a28f2f13c6a219f28084c03623bb2c8d176323"
   integrity sha1-taKPLxPGohnygITANiO7LI0XYyM=
   dependencies:
     chokidar "^2.0.0"
@@ -7886,7 +7886,7 @@ untildify@^2.1.0:
 
 upath@^1.1.0:
   version "1.1.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/upath/-/upath-1.1.0.tgz#35256597e46a581db4793d0ce47fa9aebfc9fabd"
+  resolved "https://registry.yarnpkg.com/upath/-/upath-1.1.0.tgz#35256597e46a581db4793d0ce47fa9aebfc9fabd"
   integrity sha1-NSVll+RqWB20eT0M5H+prr/J+r0=
 
 urix@^0.1.0:
@@ -8032,7 +8032,7 @@ websocket-extensions@>=0.1.1:
 
 whatwg-fetch@^3.0.0:
   version "3.0.0"
-  resolved "https://spiceworks.jfrog.io/spiceworks/api/npm/npm-integrated/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
   integrity sha1-/IBORYzEYACbGiuWa8iBfSV4rvs=
 
 which@^1.2.14, which@^1.2.9, which@^1.3.0:

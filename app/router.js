@@ -12,6 +12,9 @@ Router.map(function() {
   this.route('top-stories', { path: '/' });
 
   this.route('new-stories', { path: 'new' });
+  this.route('show-stories', { path: 'show' });
+  this.route('ask-stories', { path: 'ask' });
+  this.route('jobs-stories', { path: 'jobs' });
 });
 
 export default Router;

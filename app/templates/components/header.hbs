@@ -1,2 +1,5 @@
-{{#link-to "top-stories"}}Top{{/link-to}}
-{{#link-to "new-stories"}}New{{/link-to}}
+{{#link-to "top-stories" (query-params page=1) current-when="top-stories"}}Top{{/link-to}}
+{{#link-to "new-stories" (query-params page=1) current-when="new-stories"}}New{{/link-to}}
+{{#link-to "show-stories" (query-params page=1) current-when="show-stories"}}Show{{/link-to}}
+{{#link-to "ask-stories" (query-params page=1) current-when="ask-stories"}}Ask{{/link-to}}
+{{#link-to "jobs-stories" (query-params page=1) current-when="jobs-stories"}}Jobs{{/link-to}}
