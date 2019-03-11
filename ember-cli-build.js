@@ -1,10 +1,33 @@
 'use strict';
 
+const autoprefixer = require('autoprefixer')
+const targets = require('./config/targets')
+
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    'ember-cli-critical': {
+      critical: {
+        minify: true
+      }
+    },
+    postcssOptions: {
+      compile: {
+        enabled: false,
+      },
+      filter: {
+        enabled: true,
+        plugins: [
+          {
+            module: autoprefixer,
+            options: {
+              browsers: targets.browsers,
+            },
+          },
+        ],
+      },
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated

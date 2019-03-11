@@ -1,3 +1,32 @@
 .list-story {
-  color: fuchsia;
+  display: flex;
+  align-items: center;
+  margin: 5px 10px;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+
+  &-ranking {
+    text-align: center;
+    flex-basis: 50px;
+    flex-shrink: 0;
+  }
+
+  &-data {
+    flex-grow: 1;
+    padding-left: 10px;
+
+    &-header {
+      font-size: 18px;
+    }
+
+    &-footer {
+      font-size: 14px;
+    }
+  }
+
+  .muted {
+    font-size: 12px;
+    color: #999;
+    display: inline;
+  }
 }

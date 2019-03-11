@@ -1,7 +1,3 @@
-<ul>
-  {{#each this.model as |story|}}
-    <ListStory @story={{story}} />
-  {{/each}}
-</ul>
+<AllStories @stories={{this.model}} @page={{page}} />
 
 <NavLinks @route="top-stories" @page={{page}} @items={{this.model}} />
