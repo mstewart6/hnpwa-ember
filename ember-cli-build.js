@@ -12,6 +12,27 @@ module.exports = function(defaults) {
         minify: true
       }
     },
+
+    'asset-cache': {
+      exclude: [
+        'assets/images/**/*',
+        'assets/fonts/**/*'
+      ]
+    },
+
+    'esw-cache-first': {
+      patterns: [
+        '/assets/images/(.+)',
+        '/assets/fonts/(.+)'
+      ]
+    },
+
+    'esw-cache-fallback': {
+      patterns: [
+        'https://api.hackerwebapp.com/(.+)',
+      ]
+    },
+
     postcssOptions: {
       compile: {
         enabled: false,
