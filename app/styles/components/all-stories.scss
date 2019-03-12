@@ -1,0 +1,14 @@
+.all-stories {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  min-width: $phone-min-width;
+  max-width: 1200px;
+  background-color: $secondary;
+
+  @media only screen and (max-width: $desktop-min-width) {
+    width: 100%;
+  }
+}

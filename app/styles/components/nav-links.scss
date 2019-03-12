@@ -1,0 +1,31 @@
+.nav-links {
+  width: 75%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+
+  @media only screen and (max-width: $desktop-min-width) {
+    width: 100%;
+  }
+
+  a {
+    padding: 15px;
+    margin: 0;
+    margin-bottom: -1px;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 50px;
+    text-align: center;
+
+    &, &:visited, &.active {
+      color: inherit;//$secondary;
+    }
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}

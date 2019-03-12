@@ -1,19 +1,31 @@
 <div class="list-story-ranking">
   {{story.points}}
+
+  <div class="muted">
+    points
+  </div>
 </div>
 
 <div class="list-story-data">
   <div class="list-story-data-header">
-    <a href={{story.url}} target="_blank" rel="noopener noreferrer">
+    <a href={{story.url}}>
       {{story.title}}
     </a>
 
-    <span class="muted">
+    <div class="muted">
       {{story.domain}}
-    </span>
+    </div>
   </div>
 
   <div class="list-story-data-footer">
-    by {{story.user}} {{story.time_ago}} | {{story.comments_count}} comments
+    by {{story.user}} {{story.time_ago}}
+  </div>
+</div>
+
+<div class="list-story-social">
+  {{story.comments_count}}
+
+  <div class="muted">
+    comments
   </div>
 </div>

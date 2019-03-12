@@ -2,6 +2,8 @@ import Component from '@ember/component';
 import { computed } from '@ember/object';
 
 export default Component.extend({
+  tagName: 'footer',
+  classNames: ['nav-links'],
   perPage: 30,
   pageLimit: 10,
 
