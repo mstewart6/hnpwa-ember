@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 const FastBootAppServer = require('fastboot-app-server');
 
 let server = new FastBootAppServer({
@@ -5,7 +7,7 @@ let server = new FastBootAppServer({
   gzip: true,
   beforeMiddleware(app) {
     app.use((request, response, next) => {
-      if(request.headers['x-forwarded-proto'] === 'https') {
+      if (request.headers['x-forwarded-proto'] === 'https') {
         return next();
       } else {
         return response.redirect(301, `https://${request.hostname}${request.url}`);

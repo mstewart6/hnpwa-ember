@@ -62,6 +62,7 @@
     "node": "6.* || 8.* || >= 10.*"
   },
   "dependencies": {
-    "autoprefixer": "^9.4.10"
+    "autoprefixer": "^9.4.10",
+    "ember-cli-concat": "^2.0.1"
   }
 }
