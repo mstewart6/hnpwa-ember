@@ -2,7 +2,6 @@
   background-color: $primary;
   color: $secondary;
   font-size: 0;
-  min-width: $phone-min-width;
   position: sticky;
   top: 0;
   left: 0;
@@ -12,7 +11,6 @@
   a {
     padding: 15px;
     margin: 0;
-    margin-bottom: -1px;
     display: inline-block;
     font-size: 16px;
     min-width: 50px;
@@ -29,6 +27,12 @@
 
     &:hover:not(.active) {
       background-color: $tertiary;
+    }
+  }
+
+  @media only screen and (max-width: $phone-min-width) {
+    a {
+      min-width: calc(20% - 30px);
     }
   }
 }
